@@ -26,6 +26,8 @@ bond mol.118.SG mol.185.SG
 bond mol.150.SG mol.164.SG
 bond mol.175.SG mol.199.SG
 
+setBox mol "vdw"
+
 # Writing out the results
 saveamberparm mol structure.prmtop structure.crd
 quit

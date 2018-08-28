@@ -70,6 +70,7 @@ Loading PDB file: ./input.pdb
   Leap added 5188 missing atoms according to residue templates:
        20 Heavy
        5168 H / lone pairs
+Box dimensions:  107.037000 79.254000 55.618000
 Checking Unit.
 WARNING: There is a bond of 0.481351 angstroms between: 
 -------  .R<ACE 0>.A<C 5> and .R<MET 1>.A<N 1>
