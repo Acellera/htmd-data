@@ -4,23 +4,23 @@ za     1.008       0.00
 zb    16.000       0.00
 
 BOND
-za-zb    371.400   0.973
-zb-zb    340.500   1.469
+za-zb    563.510   0.973
+zb-zb    123.130   1.469
 
 ANGL
-za-zb-zb     49.340   98.720
+za-zb-zb     62.055   98.720
 
 DIHE
-za-zb-zb-za    1     2.98324587    0.000  -1.0    SCEE=1.2 SCNB=2.0
-za-zb-zb-za    1     1.93622363    0.000  -2.0    SCEE=1.2 SCNB=2.0
-za-zb-zb-za    1     0.27083226    0.005  -3.0    SCEE=1.2 SCNB=2.0
-za-zb-zb-za    1     0.06539191    0.126  -4.0    SCEE=1.2 SCNB=2.0
-za-zb-zb-za    1     0.01987214    1.725  -5.0    SCEE=1.2 SCNB=2.0
-za-zb-zb-za    1     0.00322204    0.436   6.0    SCEE=1.2 SCNB=2.0
+za-zb-zb-za    1     0.04482959    0.283  -1.0    SCEE=1.2 SCNB=2.0
+za-zb-zb-za    1     1.47435395    0.000  -2.0    SCEE=1.2 SCNB=2.0
+za-zb-zb-za    1     0.19026455    0.000  -3.0    SCEE=1.2 SCNB=2.0
+za-zb-zb-za    1     0.05062598    0.073  -4.0    SCEE=1.2 SCNB=2.0
+za-zb-zb-za    1     0.01713024    0.115  -5.0    SCEE=1.2 SCNB=2.0
+za-zb-zb-za    1     0.00270918    0.050   6.0    SCEE=1.2 SCNB=2.0
 
 IMPR
 
 NONB
-za    0.00000000   0.00000000
-zb    1.72100000   0.21040000
+za    0.30190000   0.00470000
+zb    1.82000000   0.09300000
 
