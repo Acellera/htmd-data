@@ -22,10 +22,10 @@
     -----------------------------------------------------------------------
 
 
-    Psi4 started on: Wednesday, 26 September 2018 01:39PM
+    Psi4 started on: Saturday, 29 September 2018 04:27PM
 
-    Process ID: 28159
-    Host:       arancio.prib.upf.edu
+    Process ID: 26510
+    Host:       loro.prib.upf.edu
     PSIDATADIR: /shared/joao/test_parameterize/miniconda3/share/psi4
     Memory:     500.0 MiB
     Threads:    1
@@ -34,7 +34,7 @@
 
 --------------------------------------------------------------------------
 set_num_threads(1)
-set_memory('1151 MB')
+set_memory('5348 MB')
 
 set { scf_mem_safety_factor 0.7 }
 
@@ -68,10 +68,10 @@ with open('psi4out.xyz', 'w') as f:
 --------------------------------------------------------------------------
   Threads set to 1 by Python driver.
 
-  Memory set to   1.072 GiB by Python driver.
+  Memory set to   4.981 GiB by Python driver.
 
-*** tstart() called on arancio.prib.upf.edu
-*** at Wed Sep 26 13:39:06 2018
+*** tstart() called on loro.prib.upf.edu
+*** at Sat Sep 29 16:27:10 2018
 
    => Loading Basis Set <=
 
@@ -87,7 +87,7 @@ with open('psi4out.xyz', 'w') as f:
             by Justin Turney, Rob Parrish, Andy Simmonett
                              and Daniel Smith
                               RKS Reference
-                        1 Threads,   1097 MiB Core
+                        1 Threads,   5100 MiB Core
          ---------------------------------------------------------
 
   ==> Geometry <==
@@ -212,7 +212,7 @@ with open('psi4out.xyz', 'w') as f:
 
   ==> Integral Setup <==
 
-  DFHelper Memory: AOs need 0.003 [GiB]; user supplied 0.750 [GiB]. Using in-core AOs.
+  DFHelper Memory: AOs need 0.003 [GiB]; user supplied 3.486 [GiB]. Using in-core AOs.
 
   ==> MemDFJK: Density-Fitted J/K Matrices <==
 
@@ -220,7 +220,7 @@ with open('psi4out.xyz', 'w') as f:
     K tasked:                   Yes
     wK tasked:                   No
     OpenMP threads:               1
-    Memory (MB):                768
+    Memory (MB):               3570
     Algorithm:                 Core
     Schwarz Cutoff:           1E-12
     Mask sparsity (%):       0.0000
@@ -245,15 +245,15 @@ with open('psi4out.xyz', 'w') as f:
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-RKS iter   0:  -151.58412945223301   -1.51584e+02   4.66570e-02 
-   @DF-RKS iter   1:  -151.50802481285325    7.61046e-02   8.25713e-03 
-   @DF-RKS iter   2:  -151.50320811567764    4.81670e-03   9.04798e-03 DIIS
-   @DF-RKS iter   3:  -151.54706183674526   -4.38537e-02   7.64180e-04 DIIS
-   @DF-RKS iter   4:  -151.54733154521259   -2.69708e-04   2.02398e-04 DIIS
-   @DF-RKS iter   5:  -151.54733730153978   -5.75633e-06   1.73673e-04 DIIS
-   @DF-RKS iter   6:  -151.54735310767336   -1.58061e-05   5.64370e-06 DIIS
-   @DF-RKS iter   7:  -151.54735312940926   -2.17359e-08   1.04682e-06 DIIS
-   @DF-RKS iter   8:  -151.54735313032222   -9.12962e-10   1.23625e-07 DIIS
+   @DF-RKS iter   0:  -151.60322068692639   -1.51603e+02   4.87315e-02 
+   @DF-RKS iter   1:  -151.51646417583586    8.67565e-02   7.35805e-03 
+   @DF-RKS iter   2:  -151.51617946175122    2.84714e-04   7.61597e-03 DIIS
+   @DF-RKS iter   3:  -151.54698113142337   -3.08017e-02   8.61112e-04 DIIS
+   @DF-RKS iter   4:  -151.54733400780898   -3.52876e-04   1.86067e-04 DIIS
+   @DF-RKS iter   5:  -151.54733493241307   -9.24604e-07   1.85453e-04 DIIS
+   @DF-RKS iter   6:  -151.54735309166099   -1.81592e-05   6.06740e-06 DIIS
+   @DF-RKS iter   7:  -151.54735312841589   -3.67549e-08   1.73280e-06 DIIS
+   @DF-RKS iter   8:  -151.54735313030818   -1.89229e-09   1.23036e-07 DIIS
 
   ==> Post-Iterations <==
 
@@ -264,20 +264,20 @@ with open('psi4out.xyz', 'w') as f:
 
        1A    -19.190357     2A    -19.190317     3A     -1.116173  
        4A     -0.886923     5A     -0.532663     6A     -0.466487  
-       7A     -0.421884     8A     -0.300987     9A     -0.282566  
+       7A     -0.421884     8A     -0.300987     9A     -0.282565  
 
     Virtual:                                                              
 
-      10A      0.022830    11A      0.039249    12A      0.107817  
+      10A      0.022831    11A      0.039249    12A      0.107817  
       13A      0.573990    14A      0.577776    15A      0.853343  
       16A      0.872968    17A      0.914683    18A      0.924123  
-      19A      1.012335    20A      1.041902    21A      1.232776  
+      19A      1.012335    20A      1.041903    21A      1.232776  
       22A      1.283644    23A      1.331606    24A      1.405031  
-      25A      1.675791    26A      1.705324    27A      2.057042  
+      25A      1.675792    26A      1.705324    27A      2.057042  
       28A      2.076077    29A      2.409651    30A      2.464047  
-      31A      2.546935    32A      2.862573    33A      2.933563  
+      31A      2.546936    32A      2.862574    33A      2.933564  
       34A      3.083310    35A      3.087156    36A      3.455820  
-      37A      3.571539    38A      3.819872  
+      37A      3.571539    38A      3.819873  
 
     Final Occupation by Irrep:
               A 
@@ -285,17 +285,17 @@ with open('psi4out.xyz', 'w') as f:
 
   Energy converged.
 
-  @DF-RKS Final Energy:  -151.54735313032222
+  @DF-RKS Final Energy:  -151.54735313030818
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             36.8296568499311761
-    One-Electron Energy =                -281.5935643814734135
-    Two-Electron Energy =                 107.6783213752205768
-    DFT Exchange-Correlation Energy =     -14.4615206040005742
+    One-Electron Energy =                -281.5935665390225608
+    Two-Electron Energy =                 107.6783241432733291
+    DFT Exchange-Correlation Energy =     -14.4615212144901282
     Empirical Dispersion Energy =          -0.0002463700000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                       -151.5473531303222501
+    Total Energy =                       -151.5473531303081813
 
 
 
@@ -316,15 +316,15 @@ Properties computed using the SCF density matrix
      X:    -0.1608      Y:    -2.4512      Z:     0.3980     Total:     2.4885
 
 
-*** tstop() called on arancio.prib.upf.edu at Wed Sep 26 13:39:10 2018
+*** tstop() called on loro.prib.upf.edu at Sat Sep 29 16:27:15 2018
 Module time:
-	user time   =       3.53 seconds =       0.06 minutes
-	system time =       0.06 seconds =       0.00 minutes
-	total time  =          4 seconds =       0.07 minutes
+	user time   =       2.68 seconds =       0.04 minutes
+	system time =       0.08 seconds =       0.00 minutes
+	total time  =          5 seconds =       0.08 minutes
 Total time:
-	user time   =       3.53 seconds =       0.06 minutes
-	system time =       0.06 seconds =       0.00 minutes
-	total time  =          4 seconds =       0.07 minutes
+	user time   =       2.68 seconds =       0.04 minutes
+	system time =       0.08 seconds =       0.00 minutes
+	total time  =          5 seconds =       0.08 minutes
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
@@ -354,12 +354,12 @@ OEProp: No title given, name of density matrix used for the following properties
        1     O     4.08687  4.08687  0.00000 -0.17375
        2     O     4.08685  4.08685  0.00000 -0.17371
        3     H     0.41313  0.41313  0.00000  0.17375
-       4     H     0.41314  0.41314  0.00000  0.17371
+       4     H     0.41315  0.41315  0.00000  0.17371
 
    Total alpha =  9.00000, Total beta =  9.00000, Total charge = -0.00000
 
 
-    Psi4 stopped on: Wednesday, 26 September 2018 01:39PM
-    Psi4 wall time for execution: 0:00:03.81
+    Psi4 stopped on: Saturday, 29 September 2018 04:27PM
+    Psi4 wall time for execution: 0:00:04.17
 
 *** Psi4 exiting successfully. Buy a developer a beer!

@@ -22,10 +22,10 @@
     -----------------------------------------------------------------------
 
 
-    Psi4 started on: Wednesday, 26 September 2018 01:39PM
+    Psi4 started on: Saturday, 29 September 2018 04:27PM
 
-    Process ID: 28249
-    Host:       arancio.prib.upf.edu
+    Process ID: 26629
+    Host:       loro.prib.upf.edu
     PSIDATADIR: /shared/joao/test_parameterize/miniconda3/share/psi4
     Memory:     500.0 MiB
     Threads:    1
@@ -34,7 +34,7 @@
 
 --------------------------------------------------------------------------
 set_num_threads(1)
-set_memory('1151 MB')
+set_memory('5348 MB')
 
 set { scf_mem_safety_factor 0.7 }
 
@@ -68,10 +68,10 @@ with open('psi4out.xyz', 'w') as f:
 --------------------------------------------------------------------------
   Threads set to 1 by Python driver.
 
-  Memory set to   1.072 GiB by Python driver.
+  Memory set to   4.981 GiB by Python driver.
 
-*** tstart() called on arancio.prib.upf.edu
-*** at Wed Sep 26 13:39:14 2018
+*** tstart() called on loro.prib.upf.edu
+*** at Sat Sep 29 16:27:15 2018
 
    => Loading Basis Set <=
 
@@ -87,7 +87,7 @@ with open('psi4out.xyz', 'w') as f:
             by Justin Turney, Rob Parrish, Andy Simmonett
                              and Daniel Smith
                               RKS Reference
-                        1 Threads,   1097 MiB Core
+                        1 Threads,   5100 MiB Core
          ---------------------------------------------------------
 
   ==> Geometry <==
@@ -212,7 +212,7 @@ with open('psi4out.xyz', 'w') as f:
 
   ==> Integral Setup <==
 
-  DFHelper Memory: AOs need 0.003 [GiB]; user supplied 0.750 [GiB]. Using in-core AOs.
+  DFHelper Memory: AOs need 0.003 [GiB]; user supplied 3.486 [GiB]. Using in-core AOs.
 
   ==> MemDFJK: Density-Fitted J/K Matrices <==
 
@@ -220,7 +220,7 @@ with open('psi4out.xyz', 'w') as f:
     K tasked:                   Yes
     wK tasked:                   No
     OpenMP threads:               1
-    Memory (MB):                768
+    Memory (MB):               3570
     Algorithm:                 Core
     Schwarz Cutoff:           1E-12
     Mask sparsity (%):       0.0000
@@ -245,15 +245,15 @@ with open('psi4out.xyz', 'w') as f:
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-RKS iter   0:  -151.76644376831698   -1.51766e+02   5.76358e-02 
-   @DF-RKS iter   1:  -151.51670807820688    2.49736e-01   6.52915e-03 
-   @DF-RKS iter   2:  -151.52947041615352   -1.27623e-02   4.27710e-03 DIIS
-   @DF-RKS iter   3:  -151.53832071448011   -8.85030e-03   1.28857e-03 DIIS
-   @DF-RKS iter   4:  -151.53917520551258   -8.54491e-04   1.77336e-04 DIIS
-   @DF-RKS iter   5:  -151.53917914184123   -3.93633e-06   1.56164e-04 DIIS
-   @DF-RKS iter   6:  -151.53919191350585   -1.27717e-05   5.06156e-06 DIIS
-   @DF-RKS iter   7:  -151.53919192803195   -1.45261e-08   1.01832e-06 DIIS
-   @DF-RKS iter   8:  -151.53919192878925   -7.57296e-10   1.15381e-07 DIIS
+   @DF-RKS iter   0:  -151.56629869226694   -1.51566e+02   4.89955e-02 
+   @DF-RKS iter   1:  -151.50876617702951    5.75325e-02   7.31399e-03 
+   @DF-RKS iter   2:  -151.50744206335943    1.32411e-03   7.65644e-03 DIIS
+   @DF-RKS iter   3:  -151.53881143485111   -3.13694e-02   8.70078e-04 DIIS
+   @DF-RKS iter   4:  -151.53918487263311   -3.73438e-04   1.06931e-04 DIIS
+   @DF-RKS iter   5:  -151.53918299482041    1.87781e-06   1.29899e-04 DIIS
+   @DF-RKS iter   6:  -151.53919187730435   -8.88248e-06   8.17486e-06 DIIS
+   @DF-RKS iter   7:  -151.53919192754543   -5.02411e-08   1.41683e-06 DIIS
+   @DF-RKS iter   8:  -151.53919192878536   -1.23993e-09   1.42461e-07 DIIS
 
   ==> Post-Iterations <==
 
@@ -262,7 +262,7 @@ with open('psi4out.xyz', 'w') as f:
 
     Doubly Occupied:                                                      
 
-       1A    -19.191838     2A    -19.191805     3A     -1.120480  
+       1A    -19.191838     2A    -19.191805     3A     -1.120481  
        4A     -0.887420     5A     -0.553731     6A     -0.431461  
        7A     -0.427086     8A     -0.343586     9A     -0.256589  
 
@@ -285,17 +285,17 @@ with open('psi4out.xyz', 'w') as f:
 
   Energy converged.
 
-  @DF-RKS Final Energy:  -151.53919192878925
+  @DF-RKS Final Energy:  -151.53919192878536
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             36.8698668117295654
-    One-Electron Energy =                -281.6259333877467839
-    Two-Electron Energy =                 107.6793407497153368
-    DFT Exchange-Correlation Energy =     -14.4622770424873632
+    One-Electron Energy =                -281.6259486757285231
+    Two-Electron Energy =                 107.6793574017006847
+    DFT Exchange-Correlation Energy =     -14.4622784064870995
     Empirical Dispersion Energy =          -0.0001890600000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                       -151.5391919287892222
+    Total Energy =                       -151.5391919287853568
 
 
 
@@ -316,14 +316,14 @@ Properties computed using the SCF density matrix
      X:    -0.2357      Y:    -2.9125      Z:    -0.5562     Total:     2.9745
 
 
-*** tstop() called on arancio.prib.upf.edu at Wed Sep 26 13:39:18 2018
+*** tstop() called on loro.prib.upf.edu at Sat Sep 29 16:27:19 2018
 Module time:
-	user time   =       3.45 seconds =       0.06 minutes
-	system time =       0.08 seconds =       0.00 minutes
+	user time   =       2.61 seconds =       0.04 minutes
+	system time =       0.06 seconds =       0.00 minutes
 	total time  =          4 seconds =       0.07 minutes
 Total time:
-	user time   =       3.45 seconds =       0.06 minutes
-	system time =       0.08 seconds =       0.00 minutes
+	user time   =       2.61 seconds =       0.04 minutes
+	system time =       0.06 seconds =       0.00 minutes
 	total time  =          4 seconds =       0.07 minutes
 
 
@@ -359,7 +359,7 @@ OEProp: No title given, name of density matrix used for the following properties
    Total alpha =  9.00000, Total beta =  9.00000, Total charge =  0.00000
 
 
-    Psi4 stopped on: Wednesday, 26 September 2018 01:39PM
-    Psi4 wall time for execution: 0:00:03.77
+    Psi4 stopped on: Saturday, 29 September 2018 04:27PM
+    Psi4 wall time for execution: 0:00:03.72
 
 *** Psi4 exiting successfully. Buy a developer a beer!

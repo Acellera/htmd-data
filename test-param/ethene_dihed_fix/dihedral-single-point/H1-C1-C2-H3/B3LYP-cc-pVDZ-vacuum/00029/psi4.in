@@ -1,5 +1,7 @@
 set_num_threads(1)
-set_memory(4203741184)
+set_memory('5348 MB')
+
+set { scf_mem_safety_factor 0.7 }
 
 set { reference rks }
 set { basis cc-pVDZ }
