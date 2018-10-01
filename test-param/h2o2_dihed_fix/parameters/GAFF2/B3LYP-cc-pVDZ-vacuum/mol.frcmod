@@ -11,12 +11,12 @@ ANGL
 za-zb-zb     62.055   98.720
 
 DIHE
-za-zb-zb-za    1     0.04482959    0.283  -1.0    SCEE=1.2 SCNB=2.0
-za-zb-zb-za    1     1.47435395    0.000  -2.0    SCEE=1.2 SCNB=2.0
-za-zb-zb-za    1     0.19026455    0.000  -3.0    SCEE=1.2 SCNB=2.0
-za-zb-zb-za    1     0.05062598    0.073  -4.0    SCEE=1.2 SCNB=2.0
-za-zb-zb-za    1     0.01713024    0.115  -5.0    SCEE=1.2 SCNB=2.0
-za-zb-zb-za    1     0.00270918    0.050   6.0    SCEE=1.2 SCNB=2.0
+za-zb-zb-za    1     2.95848884    0.000  -1.0    SCEE=1.2 SCNB=2.0
+za-zb-zb-za    1     1.93235879  360.000  -2.0    SCEE=1.2 SCNB=2.0
+za-zb-zb-za    1     0.27018092  360.000  -3.0    SCEE=1.2 SCNB=2.0
+za-zb-zb-za    1     0.06527166  360.000  -4.0    SCEE=1.2 SCNB=2.0
+za-zb-zb-za    1     0.01986925    0.850  -5.0    SCEE=1.2 SCNB=2.0
+za-zb-zb-za    1     0.00322751    0.392   6.0    SCEE=1.2 SCNB=2.0
 
 IMPR
 
