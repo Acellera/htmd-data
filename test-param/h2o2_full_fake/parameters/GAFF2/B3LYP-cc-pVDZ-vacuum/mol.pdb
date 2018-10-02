@@ -1,8 +1,8 @@
 MODEL        1
-HETATM    1  O1  MOL     1       0.992   0.058  -0.164  0.00  0.00      L    O  
-HETATM    2  O2  MOL     1       2.484   0.063  -0.163  0.00  0.00      L    O  
-HETATM    3  H1  MOL     1       0.813  -0.902  -0.215  0.00  0.00      L    H  
-HETATM    4  H2  MOL     1       2.664   0.561   0.659  0.00  0.00      L    H  
+HETATM    1  O1  MOL     1       1.002   0.073  -0.243  0.00  0.00      L    O  
+HETATM    2  O2  MOL     1       2.480   0.108  -0.208  0.00  0.00      L    O  
+HETATM    3  H1  MOL     1       0.857  -0.882  -0.115  0.00  0.00      L    H  
+HETATM    4  H2  MOL     1       2.614   0.481   0.682  0.00  0.00      L    H  
 CONECT    1    2    3
 CONECT    2    1    4
 CONECT    3    1
