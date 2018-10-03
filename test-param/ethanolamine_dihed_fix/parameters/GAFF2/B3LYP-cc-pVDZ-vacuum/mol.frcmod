@@ -36,19 +36,19 @@ h1-za-zb-ze    1     0.15555556    0.000   3.0    SCEE=1.2 SCNB=2.0
 h1-za-zf-zd    1     0.11300000    0.000   3.0    SCEE=1.2 SCNB=2.0
 h1-zb-za-zf    1     0.25000000    0.000   1.0    SCEE=1.2 SCNB=2.0
 h1-zb-ze-zc    1     0.30000000    0.000   3.0    SCEE=1.2 SCNB=2.0
-za-zb-ze-zc    1     0.64810503  184.034  -1.0    SCEE=1.2 SCNB=2.0
-za-zb-ze-zc    1     0.98069728    2.182  -2.0    SCEE=1.2 SCNB=2.0
-za-zb-ze-zc    1     0.06572124  181.467  -3.0    SCEE=1.2 SCNB=2.0
-za-zb-ze-zc    1     0.00610797    0.000   4.0    SCEE=1.2 SCNB=2.0
-zb-za-zf-zd    1     1.00703632  159.967  -1.0    SCEE=1.2 SCNB=2.0
-zb-za-zf-zd    1     0.25130102   45.116  -2.0    SCEE=1.2 SCNB=2.0
-zb-za-zf-zd    1     0.30875970  360.000  -3.0    SCEE=1.2 SCNB=2.0
-zb-za-zf-zd    1     0.02877094   37.632  -4.0    SCEE=1.2 SCNB=2.0
-zb-za-zf-zd    1     0.00937973   16.192   6.0    SCEE=1.2 SCNB=2.0
-ze-zb-za-zf    1     1.11541738  150.684  -1.0    SCEE=1.2 SCNB=2.0
-ze-zb-za-zf    1     0.52546017    4.761  -3.0    SCEE=1.2 SCNB=2.0
-ze-zb-za-zf    1     0.09088816  112.781  -4.0    SCEE=1.2 SCNB=2.0
-ze-zb-za-zf    1     0.04562418  157.682   5.0    SCEE=1.2 SCNB=2.0
+za-zb-ze-zc    1     0.29131363  178.726  -1.0    SCEE=1.2 SCNB=2.0
+za-zb-ze-zc    1     1.05522638  360.000  -2.0    SCEE=1.2 SCNB=2.0
+za-zb-ze-zc    1     0.00725853    0.000  -4.0    SCEE=1.2 SCNB=2.0
+za-zb-ze-zc    1     0.01966396  360.000   5.0    SCEE=1.2 SCNB=2.0
+zb-za-zf-zd    1     0.29627648  179.928  -1.0    SCEE=1.2 SCNB=2.0
+zb-za-zf-zd    1     0.33558643   26.687  -2.0    SCEE=1.2 SCNB=2.0
+zb-za-zf-zd    1     0.32774229  360.000  -3.0    SCEE=1.2 SCNB=2.0
+zb-za-zf-zd    1     0.00895359  360.000   6.0    SCEE=1.2 SCNB=2.0
+ze-zb-za-zf    1     0.71906249  252.586  -1.0    SCEE=1.2 SCNB=2.0
+ze-zb-za-zf    1     0.67524125  293.268  -2.0    SCEE=1.2 SCNB=2.0
+ze-zb-za-zf    1     0.61376783  350.211  -3.0    SCEE=1.2 SCNB=2.0
+ze-zb-za-zf    1     0.04761127   95.240  -4.0    SCEE=1.2 SCNB=2.0
+ze-zb-za-zf    1     0.02434962  164.203   6.0    SCEE=1.2 SCNB=2.0
 
 IMPR
 
