@@ -1,5 +1,5 @@
 set_num_threads(1)
-set_memory('1151 MB')
+set_memory('4009 MB')
 
 set { scf_mem_safety_factor 0.7 }
 
