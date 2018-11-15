@@ -22,14 +22,12 @@ DIHE
 h1-za-za-h1    1     0.15555556    0.000   3.0    SCEE=1.2 SCNB=2.0
 h1-za-za-zc    1     0.25000000    0.000   1.0    SCEE=1.2 SCNB=2.0
 h1-za-zc-zb    1     0.11300000    0.000   3.0    SCEE=1.2 SCNB=2.0
-za-za-zc-zb    1     0.00000021    0.000  -2.0    SCEE=1.2 SCNB=2.0
-za-za-zc-zb    1     0.00000019    0.000  -3.0    SCEE=1.2 SCNB=2.0
-za-za-zc-zb    1     0.00000063    0.000  -4.0    SCEE=1.2 SCNB=2.0
-za-za-zc-zb    1     0.00000009    0.000   6.0    SCEE=1.2 SCNB=2.0
-zc-za-za-zc    1     0.00000111    0.000  -1.0    SCEE=1.2 SCNB=2.0
-zc-za-za-zc    1     1.12999812    0.000  -2.0    SCEE=1.2 SCNB=2.0
-zc-za-za-zc    1     0.89999946    0.000  -3.0    SCEE=1.2 SCNB=2.0
-zc-za-za-zc    1     0.00000065    0.000   5.0    SCEE=1.2 SCNB=2.0
+za-za-zc-zb    1     0.00000085    0.005  -2.0    SCEE=1.2 SCNB=2.0
+za-za-zc-zb    1     0.00000012    0.000   4.0    SCEE=1.2 SCNB=2.0
+zc-za-za-zc    1     0.00000166    0.000  -1.0    SCEE=1.2 SCNB=2.0
+zc-za-za-zc    1     1.12999873    0.000  -2.0    SCEE=1.2 SCNB=2.0
+zc-za-za-zc    1     0.89999979    0.000  -3.0    SCEE=1.2 SCNB=2.0
+zc-za-za-zc    1     0.00000002    0.000   5.0    SCEE=1.2 SCNB=2.0
 
 IMPR
 
