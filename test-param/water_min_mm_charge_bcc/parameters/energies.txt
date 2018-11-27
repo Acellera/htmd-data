@@ -1,8 +1,8 @@
 
 == Diagnostic Energies ==
 
-Bond     : 7.081302103576844e-09
-Angle    : 8.098257738996561e-05
+Bond     : 0.18797593025208745
+Angle    : 9.526463164384983e-09
 Dihedral : 0.0
 Improper : 0.0
 Electro  : 0.0
