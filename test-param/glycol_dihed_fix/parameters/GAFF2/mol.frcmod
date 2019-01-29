@@ -22,15 +22,17 @@ DIHE
 h1-za-za-h1    1     0.15555556    0.000   3.0    SCEE=1.2 SCNB=2.0
 h1-za-za-zc    1     0.25000000    0.000   1.0    SCEE=1.2 SCNB=2.0
 h1-za-zc-zb    1     0.11300000    0.000   3.0    SCEE=1.2 SCNB=2.0
-za-za-zc-zb    1     0.39863194  178.934  -1.0    SCEE=1.2 SCNB=2.0
-za-za-zc-zb    1     0.45928559  360.000  -2.0    SCEE=1.2 SCNB=2.0
-za-za-zc-zb    1     0.32137378    0.000  -3.0    SCEE=1.2 SCNB=2.0
-za-za-zc-zb    1     0.02486578  360.000  -4.0    SCEE=1.2 SCNB=2.0
-za-za-zc-zb    1     0.00414956   35.719   6.0    SCEE=1.2 SCNB=2.0
-zc-za-za-zc    1     0.04122756  180.691  -1.0    SCEE=1.2 SCNB=2.0
-zc-za-za-zc    1     0.61735966  360.000  -2.0    SCEE=1.2 SCNB=2.0
-zc-za-za-zc    1     0.72882399  360.000  -3.0    SCEE=1.2 SCNB=2.0
-zc-za-za-zc    1     0.03871396  179.575   4.0    SCEE=1.2 SCNB=2.0
+za-za-zc-zb    1     0.39822451  178.932  -1.0    SCEE=1.2 SCNB=2.0
+za-za-zc-zb    1     0.45891330    0.115  -2.0    SCEE=1.2 SCNB=2.0
+za-za-zc-zb    1     0.32174696  359.971  -3.0    SCEE=1.2 SCNB=2.0
+za-za-zc-zb    1     0.02449232    0.531  -4.0    SCEE=1.2 SCNB=2.0
+za-za-zc-zb    1     0.01577562  360.000  -5.0    SCEE=1.2 SCNB=2.0
+za-za-zc-zb    1     0.00475104    0.000   6.0    SCEE=1.2 SCNB=2.0
+zc-za-za-zc    1     0.61773968    0.241  -2.0    SCEE=1.2 SCNB=2.0
+zc-za-za-zc    1     0.72845169    0.132  -3.0    SCEE=1.2 SCNB=2.0
+zc-za-za-zc    1     0.03836944  179.776  -4.0    SCEE=1.2 SCNB=2.0
+zc-za-za-zc    1     0.03144778  179.928  -5.0    SCEE=1.2 SCNB=2.0
+zc-za-za-zc    1     0.00761690  179.636   6.0    SCEE=1.2 SCNB=2.0
 
 IMPR
 
