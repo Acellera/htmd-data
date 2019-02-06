@@ -12,12 +12,9 @@ za-za-zb     50.363  120.430
 zb-za-zb     37.684  116.900
 
 DIHE
-zb-za-za-zb    1     0.01391340  269.227  -1.0    SCEE=1.2 SCNB=2.0
-zb-za-za-zb    1     7.24389093  180.000  -2.0    SCEE=1.2 SCNB=2.0
-zb-za-za-zb    1     0.01391340  261.001  -3.0    SCEE=1.2 SCNB=2.0
-zb-za-za-zb    1     0.51511991  360.000  -4.0    SCEE=1.2 SCNB=2.0
-zb-za-za-zb    1     0.01391340  321.904  -5.0    SCEE=1.2 SCNB=2.0
-zb-za-za-zb    1     0.00000187  265.927   6.0    SCEE=1.2 SCNB=2.0
+zb-za-za-zb    1     7.24564593  180.013  -2.0    SCEE=1.2 SCNB=2.0
+zb-za-za-zb    1     0.51595116    0.187  -4.0    SCEE=1.2 SCNB=2.0
+zb-za-za-zb    1     0.00064986  253.553   6.0    SCEE=1.2 SCNB=2.0
 
 IMPR
 za-zb-za-zb     1.10000000  180.000   2.0
