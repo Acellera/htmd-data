@@ -36,21 +36,23 @@ h1-za-zb-ze    1     0.15555556    0.000   3.0    SCEE=1.2 SCNB=2.0
 h1-za-zf-zd    1     0.11300000    0.000   3.0    SCEE=1.2 SCNB=2.0
 h1-zb-za-zf    1     0.25000000    0.000   1.0    SCEE=1.2 SCNB=2.0
 h1-zb-ze-zc    1     0.30000000    0.000   3.0    SCEE=1.2 SCNB=2.0
-za-zb-ze-zc    1     0.29017774  178.365  -1.0    SCEE=1.2 SCNB=2.0
-za-zb-ze-zc    1     1.05414934  360.000  -2.0    SCEE=1.2 SCNB=2.0
-za-zb-ze-zc    1     0.04783444  182.064  -3.0    SCEE=1.2 SCNB=2.0
-za-zb-ze-zc    1     0.00605996  358.867  -4.0    SCEE=1.2 SCNB=2.0
-za-zb-ze-zc    1     0.00110375   22.370   6.0    SCEE=1.2 SCNB=2.0
-zb-za-zf-zd    1     0.30029112  179.884  -1.0    SCEE=1.2 SCNB=2.0
-zb-za-zf-zd    1     0.33895267   26.309  -2.0    SCEE=1.2 SCNB=2.0
-zb-za-zf-zd    1     0.32608052    6.803  -3.0    SCEE=1.2 SCNB=2.0
-zb-za-zf-zd    1     0.03350159   29.528  -4.0    SCEE=1.2 SCNB=2.0
-zb-za-zf-zd    1     0.00598323  360.000  -5.0    SCEE=1.2 SCNB=2.0
-zb-za-zf-zd    1     0.01275537    1.720   6.0    SCEE=1.2 SCNB=2.0
-ze-zb-za-zf    1     0.71863480  252.719  -1.0    SCEE=1.2 SCNB=2.0
-ze-zb-za-zf    1     0.67440966  293.140  -2.0    SCEE=1.2 SCNB=2.0
-ze-zb-za-zf    1     0.61549177  350.213  -3.0    SCEE=1.2 SCNB=2.0
-ze-zb-za-zf    1     0.03255296  162.332   5.0    SCEE=1.2 SCNB=2.0
+za-zb-ze-zc    1     0.29157429  178.808  -1.0    SCEE=1.2 SCNB=2.0
+za-zb-ze-zc    1     1.05624345    2.190  -2.0    SCEE=1.2 SCNB=2.0
+za-zb-ze-zc    1     0.04923140  181.713  -3.0    SCEE=1.2 SCNB=2.0
+za-zb-ze-zc    1     0.00755188  356.587  -4.0    SCEE=1.2 SCNB=2.0
+za-zb-ze-zc    1     0.01954855    5.231   5.0    SCEE=1.2 SCNB=2.0
+zb-za-zf-zd    1     0.29512134  179.942  -1.0    SCEE=1.2 SCNB=2.0
+zb-za-zf-zd    1     0.33462198   26.796  -2.0    SCEE=1.2 SCNB=2.0
+zb-za-zf-zd    1     0.33103925    6.544  -3.0    SCEE=1.2 SCNB=2.0
+zb-za-zf-zd    1     0.02419198  360.000  -4.0    SCEE=1.2 SCNB=2.0
+zb-za-zf-zd    1     0.01294541   32.221  -5.0    SCEE=1.2 SCNB=2.0
+zb-za-zf-zd    1     0.00786851  360.000   6.0    SCEE=1.2 SCNB=2.0
+ze-zb-za-zf    1     0.71922321  252.537  -1.0    SCEE=1.2 SCNB=2.0
+ze-zb-za-zf    1     0.67554984  293.315  -2.0    SCEE=1.2 SCNB=2.0
+ze-zb-za-zf    1     0.61314193  350.210  -3.0    SCEE=1.2 SCNB=2.0
+ze-zb-za-zf    1     0.04743843   94.528  -4.0    SCEE=1.2 SCNB=2.0
+ze-zb-za-zf    1     0.03490253  162.455  -5.0    SCEE=1.2 SCNB=2.0
+ze-zb-za-zf    1     0.02371830  164.456   6.0    SCEE=1.2 SCNB=2.0
 
 IMPR
 
