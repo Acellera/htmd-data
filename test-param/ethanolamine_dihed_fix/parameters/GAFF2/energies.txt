@@ -3,7 +3,7 @@
 
 Bond     :    0.0214285 kcal/mol
 Angle    :     0.295782 kcal/mol
-Dihedral :      7.54268 kcal/mol
+Dihedral :       7.5393 kcal/mol
 Improper :            0 kcal/mol
 Electro  :      5.40594 kcal/mol
 VdW      :     0.164222 kcal/mol
