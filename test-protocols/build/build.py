@@ -3,7 +3,7 @@ from os.path import join
 from htmd.builder.solvate import solvate
 from htmd.parameterization.fftype import fftype
 from htmd.parameterization.writers import writeFRCMOD
-from htmd.molecule.molecule import Molecule
+from moleculekit.molecule import Molecule
 from htmd.builder.amber import defaultParam, build
 
 # Test protein ligand building with parametrized ligand
@@ -18,7 +18,7 @@ writeFRCMOD(lig, prm, join(tmpdir, 'mol.frcmod'))
 lig.segid[:] = 'L'
 lig.center()
 
-from htmd.molecule.util import maxDistance
+from moleculekit.util import maxDistance
 D = maxDistance(mol, 'all')
 D += 6
 lig.moveBy([0, 0, D])

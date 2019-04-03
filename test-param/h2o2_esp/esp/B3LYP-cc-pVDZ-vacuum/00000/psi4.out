@@ -22,11 +22,11 @@
     -----------------------------------------------------------------------
 
 
-    Psi4 started on: Friday, 16 November 2018 01:44PM
+    Psi4 started on: Wednesday, 03 April 2019 12:28PM
 
-    Process ID: 25108
-    Host:       computer06
-    PSIDATADIR: /shared/raimis/opt/miniconda/envs/htmd/share/psi4
+    Process ID: 29103
+    Host:       spectre
+    PSIDATADIR: /home/stefan/Software/miniconda3/envs/test-htmd/share/psi4
     Memory:     500.0 MiB
     Threads:    1
     
@@ -34,7 +34,7 @@
 
 --------------------------------------------------------------------------
 set_num_threads(1)
-set_memory('4009 MB')
+set_memory('1972 MB')
 
 set { scf_mem_safety_factor 0.7 }
 
@@ -67,18 +67,18 @@ with open('psi4out.xyz', 'w') as f:
 --------------------------------------------------------------------------
   Threads set to 1 by Python driver.
 
-  Memory set to   3.734 GiB by Python driver.
+  Memory set to   1.837 GiB by Python driver.
 
-*** tstart() called on computer06
-*** at Fri Nov 16 13:44:51 2018
+*** tstart() called on spectre
+*** at Wed Apr  3 12:28:37 2019
 
    => Loading Basis Set <=
 
     Name: CC-PVDZ
     Role: ORBITAL
     Keyword: BASIS
-    atoms 1-2 entry O          line   198 file /shared/raimis/opt/miniconda/envs/htmd/share/psi4/basis/cc-pvdz.gbs 
-    atoms 3-4 entry H          line    22 file /shared/raimis/opt/miniconda/envs/htmd/share/psi4/basis/cc-pvdz.gbs 
+    atoms 1-2 entry O          line   198 file /home/stefan/Software/miniconda3/envs/test-htmd/share/psi4/basis/cc-pvdz.gbs 
+    atoms 3-4 entry H          line    22 file /home/stefan/Software/miniconda3/envs/test-htmd/share/psi4/basis/cc-pvdz.gbs 
 
 
          ---------------------------------------------------------
@@ -86,7 +86,7 @@ with open('psi4out.xyz', 'w') as f:
             by Justin Turney, Rob Parrish, Andy Simmonett
                              and Daniel Smith
                               RKS Reference
-                        1 Threads,   3823 MiB Core
+                        1 Threads,   1880 MiB Core
          ---------------------------------------------------------
 
   ==> Geometry <==
@@ -196,8 +196,8 @@ with open('psi4out.xyz', 'w') as f:
     Name: (CC-PVDZ AUX)
     Role: JKFIT
     Keyword: DF_BASIS_SCF
-    atoms 1-2 entry O          line   221 file /shared/raimis/opt/miniconda/envs/htmd/share/psi4/basis/cc-pvdz-jkfit.gbs 
-    atoms 3-4 entry H          line    51 file /shared/raimis/opt/miniconda/envs/htmd/share/psi4/basis/cc-pvdz-jkfit.gbs 
+    atoms 1-2 entry O          line   221 file /home/stefan/Software/miniconda3/envs/test-htmd/share/psi4/basis/cc-pvdz-jkfit.gbs 
+    atoms 3-4 entry H          line    51 file /home/stefan/Software/miniconda3/envs/test-htmd/share/psi4/basis/cc-pvdz-jkfit.gbs 
 
   ==> Pre-Iterations <==
 
@@ -211,7 +211,7 @@ with open('psi4out.xyz', 'w') as f:
 
   ==> Integral Setup <==
 
-  DFHelper Memory: AOs need 0.003 [GiB]; user supplied 2.614 [GiB]. Using in-core AOs.
+  DFHelper Memory: AOs need 0.003 [GiB]; user supplied 1.286 [GiB]. Using in-core AOs.
 
   ==> MemDFJK: Density-Fitted J/K Matrices <==
 
@@ -219,7 +219,7 @@ with open('psi4out.xyz', 'w') as f:
     K tasked:                   Yes
     wK tasked:                   No
     OpenMP threads:               1
-    Memory (MB):               2676
+    Memory (MB):               1316
     Algorithm:                 Core
     Schwarz Cutoff:           1E-12
     Mask sparsity (%):       0.0000
@@ -244,15 +244,15 @@ with open('psi4out.xyz', 'w') as f:
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-RKS iter   0:  -151.57170687214611   -1.51572e+02   4.82268e-02 
-   @DF-RKS iter   1:  -151.52416076014208    4.75461e-02   6.80667e-03 
-   @DF-RKS iter   2:  -151.52627012603119   -2.10937e-03   6.65566e-03 DIIS
-   @DF-RKS iter   3:  -151.54938048728721   -2.31104e-02   7.78549e-04 DIIS
-   @DF-RKS iter   4:  -151.54967959486089   -2.99108e-04   7.29472e-05 DIIS
-   @DF-RKS iter   5:  -151.54968308377215   -3.48891e-06   1.01957e-05 DIIS
-   @DF-RKS iter   6:  -151.54968316343593   -7.96638e-08   1.99388e-06 DIIS
-   @DF-RKS iter   7:  -151.54968316262054    8.15390e-10   2.66430e-06 DIIS
-   @DF-RKS iter   8:  -151.54968316634435   -3.72381e-09   7.06625e-08 DIIS
+   @DF-RKS iter   0:  -151.64657455575201   -1.51647e+02   4.64436e-02 
+   @DF-RKS iter   1:  -151.50761110677519    1.38963e-01   8.48368e-03 
+   @DF-RKS iter   2:  -151.50746179138088    1.49315e-04   8.91528e-03 DIIS
+   @DF-RKS iter   3:  -151.54941751947851   -4.19557e-02   7.29654e-04 DIIS
+   @DF-RKS iter   4:  -151.54967826248526   -2.60743e-04   9.81618e-05 DIIS
+   @DF-RKS iter   5:  -151.54968308838127   -4.82590e-06   1.09086e-05 DIIS
+   @DF-RKS iter   6:  -151.54968316420849   -7.58272e-08   1.52130e-06 DIIS
+   @DF-RKS iter   7:  -151.54968316572672   -1.51823e-09   1.06603e-06 DIIS
+   @DF-RKS iter   8:  -151.54968316629359   -5.66871e-10   2.96850e-07 DIIS
 
   ==> Post-Iterations <==
 
@@ -263,7 +263,7 @@ with open('psi4out.xyz', 'w') as f:
 
        1A    -19.185346     2A    -19.185306     3A     -1.109330  
        4A     -0.886453     5A     -0.504034     6A     -0.493929  
-       7A     -0.389593     8A     -0.357976     9A     -0.241896  
+       7A     -0.389593     8A     -0.357977     9A     -0.241896  
 
     Virtual:                                                              
 
@@ -284,17 +284,17 @@ with open('psi4out.xyz', 'w') as f:
 
   Energy converged.
 
-  @DF-RKS Final Energy:  -151.54968316634435
+  @DF-RKS Final Energy:  -151.54968316629359
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             36.7827956879795934
-    One-Electron Energy =                -281.5720416085110855
-    Two-Electron Energy =                 107.7032355633046024
-    DFT Exchange-Correlation Energy =     -14.4633540191174639
+    One-Electron Energy =                -281.5720398265016797
+    Two-Electron Energy =                 107.7032337224824801
+    DFT Exchange-Correlation Energy =     -14.4633539602539738
     Empirical Dispersion Energy =          -0.0003187900000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                       -151.5496831663443515
+    Total Energy =                       -151.5496831662935904
 
 
 
@@ -315,15 +315,15 @@ Properties computed using the SCF density matrix
      X:    -0.0000      Y:    -0.0001      Z:     0.0000     Total:     0.0001
 
 
-*** tstop() called on computer06 at Fri Nov 16 13:44:53 2018
+*** tstop() called on spectre at Wed Apr  3 12:28:38 2019
 Module time:
-	user time   =       2.60 seconds =       0.04 minutes
-	system time =       0.08 seconds =       0.00 minutes
-	total time  =          2 seconds =       0.03 minutes
+	user time   =       1.91 seconds =       0.03 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
 Total time:
-	user time   =       2.60 seconds =       0.04 minutes
-	system time =       0.08 seconds =       0.00 minutes
-	total time  =          2 seconds =       0.03 minutes
+	user time   =       1.91 seconds =       0.03 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
@@ -364,7 +364,7 @@ OEProp: No title given, name of density matrix used for the following properties
 
  Electrostatic potential computed on the grid and written to grid_esp.dat
 
-    Psi4 stopped on: Friday, 16 November 2018 01:44PM
-    Psi4 wall time for execution: 0:00:08.00
+    Psi4 stopped on: Wednesday, 03 April 2019 12:28PM
+    Psi4 wall time for execution: 0:00:05.49
 
 *** Psi4 exiting successfully. Buy a developer a beer!
