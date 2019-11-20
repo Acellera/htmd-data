@@ -17,10 +17,8 @@ dihed_num_iterations: 3
                 list: False
               memory: None
             min_type: qm
-            minimize: True
                ncpus: None
                  nnp: None
-   optimize_dihedral: True
               outdir: ./
                queue: local
              rtf_prm: None
