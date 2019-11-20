@@ -10,11 +10,9 @@
               theory: B3LYP
                basis: 6-31G*
          environment: vacuum
-            minimize: True
             min_type: qm
          charge_type: ESP
         fit_dihedral: True
-   optimize_dihedral: True
       dihed_opt_type: qm
   dihed_num_searches: None
                queue: Slurm

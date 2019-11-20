@@ -1,12 +1,12 @@
 === Arguments ===
-               basis: cc-pVDZ
+               basis: 6-311++G**
               charge: 0
          charge_type: AM1-BCC
                 code: Psi4
                debug: False
-      dihed_fit_type: NRS
+      dihed_fit_type: iterative
 dihed_num_iterations: 3
-      dihed_opt_type: qm
+      dihed_opt_type: mm
             dihedral: []
          environment: vacuum
             filename: input.mol2
@@ -17,12 +17,10 @@ dihed_num_iterations: 3
                 list: False
               memory: None
             min_type: mm
-            minimize: True
                ncpus: None
                  nnp: None
-   optimize_dihedral: True
               outdir: ./
                queue: local
              rtf_prm: None
                 seed: 20170920
-              theory: B3LYP
+              theory: wB97X-D
