@@ -1,5 +1,5 @@
 === Arguments ===
-               basis: cc-pVDZ
+               basis: 6-311++G**
               charge: 0
          charge_type: Gasteiger
                 code: Psi4
@@ -23,4 +23,4 @@ dihed_num_iterations: 3
                queue: local
              rtf_prm: None
                 seed: 20170920
-              theory: B3LYP
+              theory: wB97X-D
