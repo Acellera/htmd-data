@@ -123,6 +123,7 @@ psfgen) aliasing residue HIE to HSE
 psfgen) aliasing residue HID to HSD
 psfgen) aliasing residue HIP to HSP
 psfgen) aliasing residue CYX to CYS
+psfgen) aliasing residue CYM to CYS
 psfgen) aliasing residue WAT to TIP3
 psfgen) aliasing residue ALA atom H to HN
 psfgen) aliasing residue ARG atom H to HN
