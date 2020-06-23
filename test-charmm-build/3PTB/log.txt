@@ -94,6 +94,8 @@ psfgen) aliasing residue INA atom NA to SOD
 psfgen) aliasing residue CA to CAL
 psfgen) aliasing residue CA atom CA to CAL
 psfgen) aliasing residue ZN to ZN2
+psfgen) aliasing residue FE2 to Fe2p
+psfgen) aliasing residue Fe2p atom FE to Fe2p
 psfgen) aliasing residue LYS atom 1HZ to HZ1
 psfgen) aliasing residue LYS atom 2HZ to HZ2
 psfgen) aliasing residue LYS atom 3HZ to HZ3
