@@ -6,7 +6,7 @@ source ff2_leaprc.gaff
 # Loading parameter files
 loadamberparams param0_frcmod.ionsjc_tip3p
 loadamberparams param1_frcmod.ions234lm_126_tip3p
-loadamberparams param2_mol.frcmod
+loadamberparams param2_benzamidine.frcmod
 
 # Loading prepi topologies
 
