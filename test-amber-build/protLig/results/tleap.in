@@ -13,9 +13,8 @@ loadamberparams param2_benzamidine.frcmod
 # Loading the system
 mol = loadpdb input.pdb
 
-# Loading the rest of the system
+# Loading the ligands
 segmentL = loadmol2 segmentL.mol2
-
 mol = combine {mol segmentL}
 
 # Adding disulfide bonds
