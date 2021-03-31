@@ -18,12 +18,12 @@ segmentL = loadmol2 segmentL.mol2
 mol = combine {mol segmentL}
 
 # Adding disulfide bonds
-bond mol.9.SG mol.139.SG
-bond mol.27.SG mol.43.SG
-bond mol.111.SG mol.212.SG
-bond mol.118.SG mol.185.SG
-bond mol.150.SG mol.164.SG
-bond mol.175.SG mol.199.SG
+bond mol.8.SG mol.138.SG
+bond mol.26.SG mol.42.SG
+bond mol.110.SG mol.211.SG
+bond mol.117.SG mol.184.SG
+bond mol.149.SG mol.163.SG
+bond mol.174.SG mol.198.SG
 
 setBox mol "vdw"
 
