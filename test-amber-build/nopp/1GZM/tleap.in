@@ -13,8 +13,8 @@ loadamberparams param1_frcmod.ions234lm_126_tip3p
 mol = loadpdb input.pdb
 
 # Adding disulfide bonds
-bond mol.440.SG mol.517.SG
-bond mol.110.SG mol.187.SG
+bond mol.111.SG mol.188.SG
+bond mol.441.SG mol.518.SG
 
 setBox mol "vdw"
 
