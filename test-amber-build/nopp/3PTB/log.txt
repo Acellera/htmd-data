@@ -129,7 +129,8 @@ Box dimensions:  46.230200 41.477833 51.695352
 Checking Unit.
 
 /home/sdoerr/miniconda3/envs/htmd_new/bin/teLeap: Warning!
-There is a bond of 0.492420 angstroms between: 
+There is a bond of 0.492 angstroms between C and N atoms:
+-------  .R<ACE 1>.A<C 5> and .R<ILE 2>.A<N 1>
 
 /home/sdoerr/miniconda3/envs/htmd_new/bin/teLeap: Note.
 Ignoring the warning from Unit Checking.
