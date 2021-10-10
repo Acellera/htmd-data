@@ -209,8 +209,8 @@ segment I {
 }
 coordpdb segments/segmentI.pdb I
 
-patch DISU 1:110 1:187
 patch DISU 0:110 0:187
+patch DISU 1:110 1:187
 
 patch ASPP 0:83
 patch ASPP 1:83
