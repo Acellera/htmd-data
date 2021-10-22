@@ -1,4 +1,4 @@
-log started: Thu Oct 21 14:42:06 2021
+log started: Fri Oct 22 15:39:30 2021
 
 Log file: ./leap.log
 >> #
@@ -227,7 +227,7 @@ Loading: NVAL
 >> # Set log file
 >> #
 >> logFile leap.log
-log started: Thu Oct 21 14:42:06 2021
+log started: Fri Oct 22 15:39:30 2021
 
 Log file: ./leap.log
 >> #
@@ -293,7 +293,7 @@ Loading: ST
 ----- Source: ./ff2_leaprc.gaff2
 ----- Source of ./ff2_leaprc.gaff2 done
 >> logFile leap.log
-log started: Thu Oct 21 14:42:06 2021
+log started: Fri Oct 22 15:39:30 2021
 
 Log file: ./leap.log
 >> #
@@ -415,7 +415,7 @@ AMBER General Force Field for organic molecules (Version 2.11, May 2016)
 ----- Source: ./ff3_leaprc.RNA.Shaw
 ----- Source of ./ff3_leaprc.RNA.Shaw done
 >> logFile leap.log
-log started: Thu Oct 21 14:42:06 2021
+log started: Fri Oct 22 15:39:30 2021
 
 Log file: ./leap.log
 >> # ----- NOTE: this is designed for PDB format 3!
@@ -781,7 +781,7 @@ Ion parameters from CHARMM22. Beglov D & Roux B (1994) J. Chem. Phys. 100, 9050-
 ----- Source: ./ff4_leaprc.DNA.bsc1
 ----- Source of ./ff4_leaprc.DNA.bsc1 done
 >> logFile leap.log
-log started: Thu Oct 21 14:42:24 2021
+log started: Fri Oct 22 15:39:44 2021
 
 Log file: ./leap.log
 >> # ----- NOTE: this is designed for PDB format 3!
