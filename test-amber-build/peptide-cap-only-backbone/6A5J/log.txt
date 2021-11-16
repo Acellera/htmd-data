@@ -127,11 +127,11 @@ Loading PDB file: ./input.pdb
   Added missing heavy atom: .R<LYS 14>.A<CD 11>
   Added missing heavy atom: .R<LYS 14>.A<CE 14>
   Added missing heavy atom: .R<LYS 14>.A<NZ 17>
-  total atoms in file: 367
+  total atoms in file: 361
   Leap added 40 missing atoms according to residue templates:
        9 Heavy
        31 H / lone pairs
-Box dimensions:  23.466976 20.348600 18.997757
+Box dimensions:  23.466976 19.857600 18.997757
 Checking Unit.
 
 /home/sdoerr/miniconda3/envs/htmd3.9/bin/teLeap: Warning!
@@ -156,7 +156,7 @@ Marking per-residue atom chain types.
 
 	res	total affected
 
-	WAT	46
+	WAT	44
   )
  (no restraints)
 	Quit

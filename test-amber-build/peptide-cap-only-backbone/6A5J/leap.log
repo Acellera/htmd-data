@@ -1,4 +1,4 @@
-log started: Fri Oct 22 15:47:04 2021
+log started: Tue Nov 16 10:42:27 2021
 
 Log file: ./leap.log
 >> #
@@ -227,7 +227,7 @@ Loading: NVAL
 >> # Set log file
 >> #
 >> logFile leap.log
-log started: Fri Oct 22 15:47:04 2021
+log started: Tue Nov 16 10:42:27 2021
 
 Log file: ./leap.log
 >> #
@@ -293,7 +293,7 @@ Loading: ST
 ----- Source: ./ff2_leaprc.gaff2
 ----- Source of ./ff2_leaprc.gaff2 done
 >> logFile leap.log
-log started: Fri Oct 22 15:47:04 2021
+log started: Tue Nov 16 10:42:27 2021
 
 Log file: ./leap.log
 >> #
@@ -415,7 +415,7 @@ AMBER General Force Field for organic molecules (Version 2.11, May 2016)
 ----- Source: ./ff3_leaprc.RNA.Shaw
 ----- Source of ./ff3_leaprc.RNA.Shaw done
 >> logFile leap.log
-log started: Fri Oct 22 15:47:04 2021
+log started: Tue Nov 16 10:42:27 2021
 
 Log file: ./leap.log
 >> # ----- NOTE: this is designed for PDB format 3!
@@ -781,7 +781,7 @@ Ion parameters from CHARMM22. Beglov D & Roux B (1994) J. Chem. Phys. 100, 9050-
 ----- Source: ./ff4_leaprc.DNA.bsc1
 ----- Source of ./ff4_leaprc.DNA.bsc1 done
 >> logFile leap.log
-log started: Fri Oct 22 15:47:26 2021
+log started: Tue Nov 16 10:42:37 2021
 
 Log file: ./leap.log
 >> # ----- NOTE: this is designed for PDB format 3!
@@ -1262,15 +1262,13 @@ Starting new chain with TP3
 Starting new chain with TP3
 Starting new chain with TP3
 Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-  total atoms in file: 367
+  total atoms in file: 361
   Leap added 40 missing atoms according to residue templates:
        9 Heavy
        31 H / lone pairs
 > 
 > setBox mol "vdw"
-Box dimensions:  23.466976 20.348600 18.997757
+Box dimensions:  23.466976 19.857600 18.997757
 > 
 > # Writing out the results
 > saveamberparm mol structure.prmtop structure.crd
@@ -1298,7 +1296,7 @@ Marking per-residue atom chain types.
 
 	res	total affected
 
-	WAT	46
+	WAT	44
   )
  (no restraints)
  quit

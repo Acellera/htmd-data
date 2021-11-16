@@ -1,4 +1,4 @@
-log started: Fri Oct 22 15:38:01 2021
+log started: Tue Nov 16 10:33:40 2021
 
 Log file: ./leap.log
 >> #
@@ -227,7 +227,7 @@ Loading: NVAL
 >> # Set log file
 >> #
 >> logFile leap.log
-log started: Fri Oct 22 15:38:01 2021
+log started: Tue Nov 16 10:33:41 2021
 
 Log file: ./leap.log
 >> #
@@ -293,7 +293,7 @@ Loading: ST
 ----- Source: ./ff2_leaprc.gaff2
 ----- Source of ./ff2_leaprc.gaff2 done
 >> logFile leap.log
-log started: Fri Oct 22 15:38:01 2021
+log started: Tue Nov 16 10:33:41 2021
 
 Log file: ./leap.log
 >> #
@@ -415,7 +415,7 @@ AMBER General Force Field for organic molecules (Version 2.11, May 2016)
 ----- Source: ./ff3_leaprc.RNA.Shaw
 ----- Source of ./ff3_leaprc.RNA.Shaw done
 >> logFile leap.log
-log started: Fri Oct 22 15:38:02 2021
+log started: Tue Nov 16 10:33:41 2021
 
 Log file: ./leap.log
 >> # ----- NOTE: this is designed for PDB format 3!
@@ -781,7 +781,7 @@ Ion parameters from CHARMM22. Beglov D & Roux B (1994) J. Chem. Phys. 100, 9050-
 ----- Source: ./ff4_leaprc.DNA.bsc1
 ----- Source of ./ff4_leaprc.DNA.bsc1 done
 >> logFile leap.log
-log started: Fri Oct 22 15:38:17 2021
+log started: Tue Nov 16 10:33:54 2021
 
 Log file: ./leap.log
 >> # ----- NOTE: this is designed for PDB format 3!
@@ -1210,37 +1210,56 @@ Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12
 > mol = loadpdb input.pdb
 Loading PDB file: ./input.pdb
 Matching PDB residue names to LEaP variables.
-Mapped residue G, term: Terminal/beginning, seq. number: 359 to: G5.
-Mapped residue C, term: Terminal/last, seq. number: 383 to: C3.
-Mapped residue G, term: Terminal/beginning, seq. number: 384 to: G5.
-Mapped residue C, term: Terminal/last, seq. number: 408 to: C3.
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
-Starting new chain with TP3
+Mapped residue RG5, term: Terminal/beginning, seq. number: 359 to: G5.
+Mapped residue RG, term: Nonterminal, seq. number: 360 to: G.
+Mapped residue RU, term: Nonterminal, seq. number: 361 to: U.
+Mapped residue RA, term: Nonterminal, seq. number: 362 to: A.
+Mapped residue RA, term: Nonterminal, seq. number: 363 to: A.
+Mapped residue RG, term: Nonterminal, seq. number: 364 to: G.
+Mapped residue RA, term: Nonterminal, seq. number: 365 to: A.
+Mapped residue RG, term: Nonterminal, seq. number: 366 to: G.
+Mapped residue RC, term: Nonterminal, seq. number: 367 to: C.
+Mapped residue RA, term: Nonterminal, seq. number: 368 to: A.
+Mapped residue RC, term: Nonterminal, seq. number: 369 to: C.
+Mapped residue RC, term: Nonterminal, seq. number: 370 to: C.
+Mapped residue RC, term: Nonterminal, seq. number: 371 to: C.
+Mapped residue RG, term: Nonterminal, seq. number: 372 to: G.
+Mapped residue RA, term: Nonterminal, seq. number: 373 to: A.
+Mapped residue RC, term: Nonterminal, seq. number: 374 to: C.
+Mapped residue RU, term: Nonterminal, seq. number: 375 to: U.
+Mapped residue RG, term: Nonterminal, seq. number: 376 to: G.
+Mapped residue RC, term: Nonterminal, seq. number: 377 to: C.
+Mapped residue RU, term: Nonterminal, seq. number: 378 to: U.
+Mapped residue RC, term: Nonterminal, seq. number: 379 to: C.
+Mapped residue RU, term: Nonterminal, seq. number: 380 to: U.
+Mapped residue RU, term: Nonterminal, seq. number: 381 to: U.
+Mapped residue RC, term: Nonterminal, seq. number: 382 to: C.
+Mapped residue RC3, term: Terminal/last, seq. number: 383 to: C3.
+Mapped residue RG5, term: Terminal/beginning, seq. number: 384 to: G5.
+Mapped residue RG, term: Nonterminal, seq. number: 385 to: G.
+Mapped residue RU, term: Nonterminal, seq. number: 386 to: U.
+Mapped residue RA, term: Nonterminal, seq. number: 387 to: A.
+Mapped residue RA, term: Nonterminal, seq. number: 388 to: A.
+Mapped residue RG, term: Nonterminal, seq. number: 389 to: G.
+Mapped residue RA, term: Nonterminal, seq. number: 390 to: A.
+Mapped residue RG, term: Nonterminal, seq. number: 391 to: G.
+Mapped residue RC, term: Nonterminal, seq. number: 392 to: C.
+Mapped residue RA, term: Nonterminal, seq. number: 393 to: A.
+Mapped residue RC, term: Nonterminal, seq. number: 394 to: C.
+Mapped residue RC, term: Nonterminal, seq. number: 395 to: C.
+Mapped residue RC, term: Nonterminal, seq. number: 396 to: C.
+Mapped residue RG, term: Nonterminal, seq. number: 397 to: G.
+Mapped residue RA, term: Nonterminal, seq. number: 398 to: A.
+Mapped residue RC, term: Nonterminal, seq. number: 399 to: C.
+Mapped residue RU, term: Nonterminal, seq. number: 400 to: U.
+Mapped residue RG, term: Nonterminal, seq. number: 401 to: G.
+Mapped residue RC, term: Nonterminal, seq. number: 402 to: C.
+Mapped residue RU, term: Nonterminal, seq. number: 403 to: U.
+Mapped residue RC, term: Nonterminal, seq. number: 404 to: C.
+Mapped residue RU, term: Nonterminal, seq. number: 405 to: U.
+Mapped residue RU, term: Nonterminal, seq. number: 406 to: U.
+Mapped residue RC, term: Nonterminal, seq. number: 407 to: C.
+Mapped residue RC3, term: Terminal/last, seq. number: 408 to: C3.
 Starting new chain with TP3
 Starting new chain with TP3
 Starting new chain with TP3
@@ -5941,12 +5960,12 @@ Starting new chain with NA
 Starting new chain with NA
 Starting new chain with NA
 Starting new chain with NA
-  total atoms in file: 20862
-  Leap added 600 missing atoms according to residue templates:
-       600 H / lone pairs
+  total atoms in file: 21325
+  Leap added 56 missing atoms according to residue templates:
+       56 H / lone pairs
 > 
 > setBox mol "vdw"
-Box dimensions:  57.053600 85.967465 58.924600
+Box dimensions:  57.053600 86.930600 58.924600
 > 
 > # Writing out the results
 > saveamberparm mol structure.prmtop structure.crd
@@ -6031,7 +6050,7 @@ Marking per-residue atom chain types.
 
 	res	total affected
 
-	WAT	4714
+	WAT	4687
   )
  (no restraints)
  quit
