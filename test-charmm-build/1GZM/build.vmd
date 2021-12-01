@@ -172,37 +172,37 @@ segment 1 {
 }
 coordpdb segments/segment1.pdb 1
 
-segment WT0 {
+segment W0 {
 	auto none
-	pdb segments/segmentWT0.pdb
+	pdb segments/segmentW0.pdb
 	first none
 	last none
 }
-coordpdb segments/segmentWT0.pdb WT0
+coordpdb segments/segmentW0.pdb W0
 
-segment WT1 {
+segment W1 {
 	auto none
-	pdb segments/segmentWT1.pdb
+	pdb segments/segmentW1.pdb
 	first none
 	last none
 }
-coordpdb segments/segmentWT1.pdb WT1
+coordpdb segments/segmentW1.pdb W1
 
-segment WT2 {
+segment W2 {
 	auto none
-	pdb segments/segmentWT2.pdb
+	pdb segments/segmentW2.pdb
 	first none
 	last none
 }
-coordpdb segments/segmentWT2.pdb WT2
+coordpdb segments/segmentW2.pdb W2
 
-segment WT3 {
+segment W3 {
 	auto none
-	pdb segments/segmentWT3.pdb
+	pdb segments/segmentW3.pdb
 	first none
 	last none
 }
-coordpdb segments/segmentWT3.pdb WT3
+coordpdb segments/segmentW3.pdb W3
 
 segment I {
 	pdb segments/segmentI.pdb

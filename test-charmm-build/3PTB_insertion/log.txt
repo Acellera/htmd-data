@@ -211,15 +211,15 @@ psfgen) Warning: failed to set coordinate for atom H	 HIP:57	  0
 psfgen) Warning: failed to set coordinate for atom HB3	 HIP:57	  0
 psfgen) Warning: failed to set coordinate for atom HE2	 GLH:70	  0
 psfgen) Warning: failed to set coordinate for atom OXT	 ASN:245	  0
-psfgen) building segment WT0
+psfgen) building segment W0
 psfgen) disabling angle autogeneration
 psfgen) disabling dihedral autogeneration
-psfgen) reading residues from pdb file segments/segmentWT0.pdb
+psfgen) reading residues from pdb file segments/segmentW0.pdb
 psfgen) extracted 1320 residues from pdb file
 psfgen) setting patch for first residue to NONE
 psfgen) setting patch for last residue to NONE
 psfgen) Info: generating structure...segment complete.
-psfgen) reading coordinates from pdb file segments/segmentWT0.pdb for segment WT0
+psfgen) reading coordinates from pdb file segments/segmentW0.pdb for segment W0
 psfgen) building segment I
 psfgen) reading residues from pdb file segments/segmentI.pdb
 psfgen) extracted 8 residues from pdb file

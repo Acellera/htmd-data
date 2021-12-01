@@ -232,24 +232,24 @@ psfgen) Warning: failed to set coordinate for atom HG	 CYS:217	  1
 psfgen) Warning: failed to set coordinate for atom HD2	 ASH:246	  1
 psfgen) Warning: failed to set coordinate for atom HD2	 ASH:254	  1
 psfgen) Warning: failed to set coordinate for atom OXT	 VAL:288	  1
-psfgen) building segment WT0
+psfgen) building segment W0
 psfgen) disabling angle autogeneration
 psfgen) disabling dihedral autogeneration
-psfgen) reading residues from pdb file segments/segmentWT0.pdb
+psfgen) reading residues from pdb file segments/segmentW0.pdb
 psfgen) extracted 2876 residues from pdb file
 psfgen) setting patch for first residue to NONE
 psfgen) setting patch for last residue to NONE
 psfgen) Info: generating structure...segment complete.
-psfgen) reading coordinates from pdb file segments/segmentWT0.pdb for segment WT0
-psfgen) building segment WT1
+psfgen) reading coordinates from pdb file segments/segmentW0.pdb for segment W0
+psfgen) building segment W1
 psfgen) disabling angle autogeneration
 psfgen) disabling dihedral autogeneration
-psfgen) reading residues from pdb file segments/segmentWT1.pdb
+psfgen) reading residues from pdb file segments/segmentW1.pdb
 psfgen) extracted 447 residues from pdb file
 psfgen) setting patch for first residue to NONE
 psfgen) setting patch for last residue to NONE
 psfgen) Info: generating structure...segment complete.
-psfgen) reading coordinates from pdb file segments/segmentWT1.pdb for segment WT1
+psfgen) reading coordinates from pdb file segments/segmentW1.pdb for segment W1
 psfgen) building segment I
 psfgen) reading residues from pdb file segments/segmentI.pdb
 psfgen) extracted 5 residues from pdb file

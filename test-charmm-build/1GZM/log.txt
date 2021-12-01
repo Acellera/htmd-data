@@ -255,42 +255,42 @@ psfgen) Warning: failed to set coordinate for atom HG	 CYS:264	  1
 psfgen) Warning: failed to set coordinate for atom HG	 CYS:316	  1
 psfgen) Warning: failed to set coordinate for atom HG	 CYS:322	  1
 psfgen) Warning: failed to set coordinate for atom HG	 CYS:323	  1
-psfgen) building segment WT0
+psfgen) building segment W0
 psfgen) disabling angle autogeneration
 psfgen) disabling dihedral autogeneration
-psfgen) reading residues from pdb file segments/segmentWT0.pdb
+psfgen) reading residues from pdb file segments/segmentW0.pdb
 psfgen) extracted 4576 residues from pdb file
 psfgen) setting patch for first residue to NONE
 psfgen) setting patch for last residue to NONE
 psfgen) Info: generating structure...segment complete.
-psfgen) reading coordinates from pdb file segments/segmentWT0.pdb for segment WT0
-psfgen) building segment WT1
+psfgen) reading coordinates from pdb file segments/segmentW0.pdb for segment W0
+psfgen) building segment W1
 psfgen) disabling angle autogeneration
 psfgen) disabling dihedral autogeneration
-psfgen) reading residues from pdb file segments/segmentWT1.pdb
+psfgen) reading residues from pdb file segments/segmentW1.pdb
 psfgen) extracted 966 residues from pdb file
 psfgen) setting patch for first residue to NONE
 psfgen) setting patch for last residue to NONE
 psfgen) Info: generating structure...segment complete.
-psfgen) reading coordinates from pdb file segments/segmentWT1.pdb for segment WT1
-psfgen) building segment WT2
+psfgen) reading coordinates from pdb file segments/segmentW1.pdb for segment W1
+psfgen) building segment W2
 psfgen) disabling angle autogeneration
 psfgen) disabling dihedral autogeneration
-psfgen) reading residues from pdb file segments/segmentWT2.pdb
+psfgen) reading residues from pdb file segments/segmentW2.pdb
 psfgen) extracted 3303 residues from pdb file
 psfgen) setting patch for first residue to NONE
 psfgen) setting patch for last residue to NONE
 psfgen) Info: generating structure...segment complete.
-psfgen) reading coordinates from pdb file segments/segmentWT2.pdb for segment WT2
-psfgen) building segment WT3
+psfgen) reading coordinates from pdb file segments/segmentW2.pdb for segment W2
+psfgen) building segment W3
 psfgen) disabling angle autogeneration
 psfgen) disabling dihedral autogeneration
-psfgen) reading residues from pdb file segments/segmentWT3.pdb
+psfgen) reading residues from pdb file segments/segmentW3.pdb
 psfgen) extracted 651 residues from pdb file
 psfgen) setting patch for first residue to NONE
 psfgen) setting patch for last residue to NONE
 psfgen) Info: generating structure...segment complete.
-psfgen) reading coordinates from pdb file segments/segmentWT3.pdb for segment WT3
+psfgen) reading coordinates from pdb file segments/segmentW3.pdb for segment W3
 psfgen) building segment I
 psfgen) reading residues from pdb file segments/segmentI.pdb
 psfgen) extracted 3 residues from pdb file
