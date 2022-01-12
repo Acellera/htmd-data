@@ -6,6 +6,7 @@ extendedsystem       	input.xsc
 parmfile             	parameters
 pme                  	on
 restart              	on
+slowperiod           	2
 structure            	structure.prmtop
 switchdistance       	7.5
 switching            	on
