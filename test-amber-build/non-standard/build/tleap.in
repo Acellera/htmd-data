@@ -7,18 +7,18 @@ source ff4_leaprc.DNA.bsc1
 source ff5_leaprc.water.tip3p
 
 # Loading parameter files
-loadamberparams param0_ALC.frcmod
-loadamberparams param1_NLE.frcmod
-loadamberparams param2_200.frcmod
-loadamberparams param3_HRG.frcmod
-loadamberparams param4_OIC.frcmod
+loadamberparams param0_200.frcmod
+loadamberparams param1_HRG.frcmod
+loadamberparams param2_OIC.frcmod
+loadamberparams param3_ALC.frcmod
+loadamberparams param4_NLE.frcmod
 
 # Loading prepi topologies
-loadamberprep topo0_ALC.prepi
-loadamberprep topo1_NLE.prepi
-loadamberprep topo2_200.prepi
-loadamberprep topo3_HRG.prepi
-loadamberprep topo4_OIC.prepi
+loadamberprep topo0_200.prepi
+loadamberprep topo1_HRG.prepi
+loadamberprep topo2_OIC.prepi
+loadamberprep topo3_ALC.prepi
+loadamberprep topo4_NLE.prepi
 
 # Loading the system
 mol = loadpdb input.pdb
