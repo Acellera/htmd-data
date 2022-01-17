@@ -1,4 +1,4 @@
-log started: Mon Jan 17 13:35:20 2022
+log started: Mon Jan 17 13:46:32 2022
 
 Log file: ./leap.log
 >> #
@@ -227,7 +227,7 @@ Loading: NVAL
 >> # Set log file
 >> #
 >> logFile leap.log
-log started: Mon Jan 17 13:35:20 2022
+log started: Mon Jan 17 13:46:32 2022
 
 Log file: ./leap.log
 >> #
@@ -293,7 +293,7 @@ Loading: ST
 ----- Source: ./ff2_leaprc.gaff2
 ----- Source of ./ff2_leaprc.gaff2 done
 >> logFile leap.log
-log started: Mon Jan 17 13:35:20 2022
+log started: Mon Jan 17 13:46:32 2022
 
 Log file: ./leap.log
 >> #
@@ -415,7 +415,7 @@ AMBER General Force Field for organic molecules (Version 2.11, May 2016)
 ----- Source: ./ff3_leaprc.RNA.Shaw
 ----- Source of ./ff3_leaprc.RNA.Shaw done
 >> logFile leap.log
-log started: Mon Jan 17 13:35:20 2022
+log started: Mon Jan 17 13:46:32 2022
 
 Log file: ./leap.log
 >> # ----- NOTE: this is designed for PDB format 3!
@@ -781,7 +781,7 @@ Ion parameters from CHARMM22. Beglov D & Roux B (1994) J. Chem. Phys. 100, 9050-
 ----- Source: ./ff4_leaprc.DNA.bsc1
 ----- Source of ./ff4_leaprc.DNA.bsc1 done
 >> logFile leap.log
-log started: Mon Jan 17 13:35:29 2022
+log started: Mon Jan 17 13:46:46 2022
 
 Log file: ./leap.log
 >> # ----- NOTE: this is designed for PDB format 3!
@@ -1203,24 +1203,16 @@ Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12
 > 
 > 
 > # Loading parameter files
-> loadamberparams param0_ALC.frcmod
-Loading parameters: ./param0_ALC.frcmod
-Reading title:
-remark goes here
-> loadamberparams param1_NLE.frcmod
-Loading parameters: ./param1_NLE.frcmod
-Reading title:
-remark goes here
-> loadamberparams param2_200.frcmod
-Loading parameters: ./param2_200.frcmod
+> loadamberparams param0_200.frcmod
+Loading parameters: ./param0_200.frcmod
 Reading force field modification type file (frcmod)
 Reading title:
 Created by ParmEd
 (UNKNOWN ATOM TYPE: zb)
 (UNKNOWN ATOM TYPE: zc)
 (UNKNOWN ATOM TYPE: zd)
-> loadamberparams param3_HRG.frcmod
-Loading parameters: ./param3_HRG.frcmod
+> loadamberparams param1_HRG.frcmod
+Loading parameters: ./param1_HRG.frcmod
 Reading force field modification type file (frcmod)
 Reading title:
 Created by HTMD
@@ -1232,22 +1224,24 @@ Created by HTMD
 (UNKNOWN ATOM TYPE: zi)
 (UNKNOWN ATOM TYPE: zl)
 (UNKNOWN ATOM TYPE: zm)
-> loadamberparams param4_OIC.frcmod
-Loading parameters: ./param4_OIC.frcmod
+> loadamberparams param2_OIC.frcmod
+Loading parameters: ./param2_OIC.frcmod
 Reading force field modification type file (frcmod)
 Reading title:
 Created by HTMD
 (UNKNOWN ATOM TYPE: zj)
+> loadamberparams param3_ALC.frcmod
+Loading parameters: ./param3_ALC.frcmod
+Reading title:
+remark goes here
+> loadamberparams param4_NLE.frcmod
+Loading parameters: ./param4_NLE.frcmod
+Reading title:
+remark goes here
 > 
 > # Loading prepi topologies
-> loadamberprep topo0_ALC.prepi
-Loading Prep file: ./topo0_ALC.prepi
-Loaded UNIT: ALC
-> loadamberprep topo1_NLE.prepi
-Loading Prep file: ./topo1_NLE.prepi
-Loaded UNIT: NLE
-> loadamberprep topo2_200.prepi
-Loading Prep file: ./topo2_200.prepi
+> loadamberprep topo0_200.prepi
+Loading Prep file: ./topo0_200.prepi
 (UNKNOWN ATOM TYPE: zb)
 (UNKNOWN ATOM TYPE: zc)
 (UNKNOWN ATOM TYPE: zd)
@@ -1256,8 +1250,8 @@ Loading Prep file: ./topo2_200.prepi
 /home/sdoerr/miniconda3/envs/htmd3.9/bin/teLeap: Note.
 ** This is a remark line: 'IMPROPER' atom Cl not found
 Loaded UNIT: 200
-> loadamberprep topo3_HRG.prepi
-Loading Prep file: ./topo3_HRG.prepi
+> loadamberprep topo1_HRG.prepi
+Loading Prep file: ./topo1_HRG.prepi
 (UNKNOWN ATOM TYPE: za)
 (UNKNOWN ATOM TYPE: ze)
 (UNKNOWN ATOM TYPE: zf)
@@ -1271,10 +1265,16 @@ Loading Prep file: ./topo3_HRG.prepi
 (UNKNOWN ATOM TYPE: zi)
 (UNKNOWN ATOM TYPE: zi)
 Loaded UNIT: HRG
-> loadamberprep topo4_OIC.prepi
-Loading Prep file: ./topo4_OIC.prepi
+> loadamberprep topo2_OIC.prepi
+Loading Prep file: ./topo2_OIC.prepi
 (UNKNOWN ATOM TYPE: zj)
 Loaded UNIT: OIC
+> loadamberprep topo3_ALC.prepi
+Loading Prep file: ./topo3_ALC.prepi
+Loaded UNIT: ALC
+> loadamberprep topo4_NLE.prepi
+Loading Prep file: ./topo4_NLE.prepi
+Loaded UNIT: NLE
 > 
 > # Loading the system
 > mol = loadpdb input.pdb

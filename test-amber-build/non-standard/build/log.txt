@@ -117,32 +117,32 @@ Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/frcmod.io
 Reading force field modification type file (frcmod)
 Reading title:
 Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
-Loading parameters: ./param0_ALC.frcmod
-Reading title:
-remark goes here
-Loading parameters: ./param1_NLE.frcmod
-Reading title:
-remark goes here
-Loading parameters: ./param2_200.frcmod
+Loading parameters: ./param0_200.frcmod
 Reading force field modification type file (frcmod)
 Reading title:
 Created by ParmEd
-Loading parameters: ./param3_HRG.frcmod
+Loading parameters: ./param1_HRG.frcmod
 Reading force field modification type file (frcmod)
 Reading title:
 Created by HTMD
-Loading parameters: ./param4_OIC.frcmod
+Loading parameters: ./param2_OIC.frcmod
 Reading force field modification type file (frcmod)
 Reading title:
 Created by HTMD
-Loading Prep file: ./topo0_ALC.prepi
-Loading Prep file: ./topo1_NLE.prepi
-Loading Prep file: ./topo2_200.prepi
+Loading parameters: ./param3_ALC.frcmod
+Reading title:
+remark goes here
+Loading parameters: ./param4_NLE.frcmod
+Reading title:
+remark goes here
+Loading Prep file: ./topo0_200.prepi
 
 /home/sdoerr/miniconda3/envs/htmd3.9/bin/teLeap: Note.
 ** This is a remark line: 'IMPROPER' atom Cl not found
-Loading Prep file: ./topo3_HRG.prepi
-Loading Prep file: ./topo4_OIC.prepi
+Loading Prep file: ./topo1_HRG.prepi
+Loading Prep file: ./topo2_OIC.prepi
+Loading Prep file: ./topo3_ALC.prepi
+Loading Prep file: ./topo4_NLE.prepi
 Loading PDB file: ./input.pdb
 +Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
 +---Tried to superimpose torsions for: *-CZ-NH1-*
