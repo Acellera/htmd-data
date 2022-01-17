@@ -7,17 +7,17 @@ source ff4_leaprc.DNA.bsc1
 source ff5_leaprc.water.tip3p
 
 # Loading parameter files
-loadamberparams param0_A00.frcmod
-loadamberparams param1_ALC.frcmod
-loadamberparams param2_HRG.frcmod
-loadamberparams param3_NLE.frcmod
+loadamberparams param0_ALC.frcmod
+loadamberparams param1_NLE.frcmod
+loadamberparams param2_200.frcmod
+loadamberparams param3_HRG.frcmod
 loadamberparams param4_OIC.frcmod
 
 # Loading prepi topologies
-loadamberprep topo0_A00.prepi
-loadamberprep topo1_ALC.prepi
-loadamberprep topo2_HRG.prepi
-loadamberprep topo3_NLE.prepi
+loadamberprep topo0_ALC.prepi
+loadamberprep topo1_NLE.prepi
+loadamberprep topo2_200.prepi
+loadamberprep topo3_HRG.prepi
 loadamberprep topo4_OIC.prepi
 
 # Loading the system

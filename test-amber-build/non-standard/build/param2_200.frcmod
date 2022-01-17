@@ -1,4 +1,4 @@
-Created by HTMD
+Created by ParmEd
 MASS
 ca    12.010
 cl    35.450
@@ -57,31 +57,32 @@ H1-CT-zb-zc    1     0.15555556    0.000   3.0    SCEE=1.2 SCNB=2.0
 hc-zb-CT-C     1     0.15555556    0.000   3.0    SCEE=1.2 SCNB=2.0
 hc-zb-CT-N     1     0.15555556    0.000   3.0    SCEE=1.2 SCNB=2.0
 H -N -CT-zb    1     0.00000000    0.000   1.0    SCEE=1.2 SCNB=2.0
-CT-zb-zc-zd    1    10.00000000  207.323  -1.0    SCEE=1.2 SCNB=2.0
-CT-zb-zc-zd    1     0.15153272  308.764  -2.0    SCEE=1.2 SCNB=2.0
-CT-zb-zc-zd    1     2.46407913  109.398  -3.0    SCEE=1.2 SCNB=2.0
-CT-zb-zc-zd    1     1.72568776    0.000  -5.0    SCEE=1.2 SCNB=2.0
-CT-zb-zc-zd    1     0.08749078  275.060   6.0    SCEE=1.2 SCNB=2.0
-zb-CT-C -N     1     1.15224003  233.795  -1.0    SCEE=1.2 SCNB=2.0
-zb-CT-C -N     1     1.78632838  254.253  -2.0    SCEE=1.2 SCNB=2.0
-zb-CT-C -N     1     0.53173074  144.327  -3.0    SCEE=1.2 SCNB=2.0
-zb-CT-C -N     1     0.65703845  248.683  -4.0    SCEE=1.2 SCNB=2.0
-zb-CT-C -N     1     0.10756466   94.192  -5.0    SCEE=1.2 SCNB=2.0
-zb-CT-C -N     1     0.22733599  325.613   6.0    SCEE=1.2 SCNB=2.0
+CT-zb-zc-zd    1    10.00000000  204.196  -1.0    SCEE=1.2 SCNB=2.0
+CT-zb-zc-zd    1     0.15967377  300.682  -2.0    SCEE=1.2 SCNB=2.0
+CT-zb-zc-zd    1     2.54840423  104.815  -3.0    SCEE=1.2 SCNB=2.0
+CT-zb-zc-zd    1     0.04296095  242.314  -4.0    SCEE=1.2 SCNB=2.0
+CT-zb-zc-zd    1     1.64504183    0.000  -5.0    SCEE=1.2 SCNB=2.0
+CT-zb-zc-zd    1     0.09827644  265.955   6.0    SCEE=1.2 SCNB=2.0
+zb-CT-C -N     1     1.15835544  236.408  -1.0    SCEE=1.2 SCNB=2.0
+zb-CT-C -N     1     1.82969398  253.893  -2.0    SCEE=1.2 SCNB=2.0
+zb-CT-C -N     1     0.50179856  146.095  -3.0    SCEE=1.2 SCNB=2.0
+zb-CT-C -N     1     0.67934780  250.475  -4.0    SCEE=1.2 SCNB=2.0
+zb-CT-C -N     1     0.13178300  103.223  -5.0    SCEE=1.2 SCNB=2.0
+zb-CT-C -N     1     0.22628914  317.386   6.0    SCEE=1.2 SCNB=2.0
 zb-CT-C -O     1     0.74000000    0.000  -1.0    SCEE=1.2 SCNB=2.0
 zb-CT-C -O     1     0.03000000  180.000  -2.0    SCEE=1.2 SCNB=2.0
 zb-CT-C -O     1     0.55000000  180.000   3.0    SCEE=1.2 SCNB=2.0
-zb-CT-N -C     1     2.90101752  277.463  -1.0    SCEE=1.2 SCNB=2.0
-zb-CT-N -C     1     0.69741338  293.977  -2.0    SCEE=1.2 SCNB=2.0
-zb-CT-N -C     1     0.71809225  360.000  -3.0    SCEE=1.2 SCNB=2.0
-zb-CT-N -C     1     0.06503957    0.000  -4.0    SCEE=1.2 SCNB=2.0
-zb-CT-N -C     1     0.30247236  346.181  -5.0    SCEE=1.2 SCNB=2.0
-zb-CT-N -C     1     0.18184553    0.000   6.0    SCEE=1.2 SCNB=2.0
-zc-zb-CT-C     1     1.51312696  324.133  -1.0    SCEE=1.2 SCNB=2.0
-zc-zb-CT-C     1     0.35436612  141.183  -2.0    SCEE=1.2 SCNB=2.0
-zc-zb-CT-C     1     0.73706705  360.000  -3.0    SCEE=1.2 SCNB=2.0
-zc-zb-CT-C     1     0.13980255  249.365  -5.0    SCEE=1.2 SCNB=2.0
-zc-zb-CT-C     1     0.12491531    0.000   6.0    SCEE=1.2 SCNB=2.0
+zb-CT-N -C     1     2.88897534  276.460  -1.0    SCEE=1.2 SCNB=2.0
+zb-CT-N -C     1     0.74561049  294.116  -2.0    SCEE=1.2 SCNB=2.0
+zb-CT-N -C     1     0.70507962  360.000  -3.0    SCEE=1.2 SCNB=2.0
+zb-CT-N -C     1     0.06471353    0.000  -4.0    SCEE=1.2 SCNB=2.0
+zb-CT-N -C     1     0.28844767  345.416  -5.0    SCEE=1.2 SCNB=2.0
+zb-CT-N -C     1     0.19851271    0.000   6.0    SCEE=1.2 SCNB=2.0
+zc-zb-CT-C     1     1.52166597  325.457  -1.0    SCEE=1.2 SCNB=2.0
+zc-zb-CT-C     1     0.34089192  144.804  -2.0    SCEE=1.2 SCNB=2.0
+zc-zb-CT-C     1     0.74722129  360.000  -3.0    SCEE=1.2 SCNB=2.0
+zc-zb-CT-C     1     0.11966968  228.580  -5.0    SCEE=1.2 SCNB=2.0
+zc-zb-CT-C     1     0.13107236    0.000   6.0    SCEE=1.2 SCNB=2.0
 zc-zb-CT-N     1     0.21000000    0.000   3.0    SCEE=1.2 SCNB=2.0
 
 IMPROPER

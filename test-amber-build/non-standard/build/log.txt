@@ -117,19 +117,17 @@ Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/frcmod.io
 Reading force field modification type file (frcmod)
 Reading title:
 Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
-Loading parameters: ./param0_A00.frcmod
+Loading parameters: ./param0_ALC.frcmod
+Reading title:
+remark goes here
+Loading parameters: ./param1_NLE.frcmod
+Reading title:
+remark goes here
+Loading parameters: ./param2_200.frcmod
 Reading force field modification type file (frcmod)
 Reading title:
-Created by HTMD
-Loading parameters: ./param1_ALC.frcmod
-Reading force field modification type file (frcmod)
-Reading title:
-Created by HTMD
-Loading parameters: ./param2_HRG.frcmod
-Reading force field modification type file (frcmod)
-Reading title:
-Created by HTMD
-Loading parameters: ./param3_NLE.frcmod
+Created by ParmEd
+Loading parameters: ./param3_HRG.frcmod
 Reading force field modification type file (frcmod)
 Reading title:
 Created by HTMD
@@ -137,13 +135,13 @@ Loading parameters: ./param4_OIC.frcmod
 Reading force field modification type file (frcmod)
 Reading title:
 Created by HTMD
-Loading Prep file: ./topo0_A00.prepi
+Loading Prep file: ./topo0_ALC.prepi
+Loading Prep file: ./topo1_NLE.prepi
+Loading Prep file: ./topo2_200.prepi
 
 /home/sdoerr/miniconda3/envs/htmd3.9/bin/teLeap: Note.
 ** This is a remark line: 'IMPROPER' atom Cl not found
-Loading Prep file: ./topo1_ALC.prepi
-Loading Prep file: ./topo2_HRG.prepi
-Loading Prep file: ./topo3_NLE.prepi
+Loading Prep file: ./topo3_HRG.prepi
 Loading Prep file: ./topo4_OIC.prepi
 Loading PDB file: ./input.pdb
 +Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
@@ -272,107 +270,12 @@ Loading PDB file: ./input.pdb
 +--- Sp0 probably means a new atom type is involved
 +--- which needs to be added via addAtomTypes
 +Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CE1-CD1-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CE2-CD2-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD2-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD1-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CB-CG-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CB-CG-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD2-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD1-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
 +---Tried to superimpose torsions for: *-CA-CB-*
 +--- With Sp3 - Sp0
 +--- Sp0 probably means a new atom type is involved
 +--- which needs to be added via addAtomTypes
 +Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
 +---Tried to superimpose torsions for: *-CB-CG'-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CE2-CD2-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CE1-CD1-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CB-CG-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CB-CG-*
 +--- With Sp0 - Sp0
 +--- Sp0 probably means a new atom type is involved
 +--- which needs to be added via addAtomTypes
@@ -392,41 +295,6 @@ Loading PDB file: ./input.pdb
 +--- Sp0 probably means a new atom type is involved
 +--- which needs to be added via addAtomTypes
 +Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CB-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD1-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CB-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD2-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD1-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CB-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD2-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
 +---Tried to superimpose torsions for: *-CA-CB-*
 +--- With Sp3 - Sp0
 +--- Sp0 probably means a new atom type is involved
@@ -462,76 +330,6 @@ Loading PDB file: ./input.pdb
 +--- Sp0 probably means a new atom type is involved
 +--- which needs to be added via addAtomTypes
 +Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CB-CG-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD2-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD1-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CE2-CD2-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CE1-CD1-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CB-CG-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CB-CG-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
 +---Tried to superimpose torsions for: *-CG-CD-*
 +--- With Sp3 - Sp0
 +--- Sp0 probably means a new atom type is involved
@@ -637,83 +435,8 @@ Loading PDB file: ./input.pdb
 +--- Sp0 probably means a new atom type is involved
 +--- which needs to be added via addAtomTypes
 +Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CD-CE-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CB-CG-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CB-CG-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
 +---Tried to superimpose torsions for: *-N-CD-*
 +--- With Sp2 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CD-CE-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CB-CG-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CB-CG-*
-+--- With Sp0 - Sp0
 +--- Sp0 probably means a new atom type is involved
 +--- which needs to be added via addAtomTypes
 +Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
@@ -729,31 +452,6 @@ Loading PDB file: ./input.pdb
 +Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
 +---Tried to superimpose torsions for: *-CG-CD-*
 +--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CB-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CB-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CB-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD-*
-+--- With Sp0 - Sp0
 +--- Sp0 probably means a new atom type is involved
 +--- which needs to be added via addAtomTypes
 +Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
@@ -774,61 +472,6 @@ Loading PDB file: ./input.pdb
 +Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
 +---Tried to superimpose torsions for: *-C7-CD-*
 +--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CB-CG-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CG-CD-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CD-CE-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CB-CG-*
-+--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CB-CG-*
-+--- With Sp0 - Sp0
 +--- Sp0 probably means a new atom type is involved
 +--- which needs to be added via addAtomTypes
 +Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
@@ -944,11 +587,6 @@ Loading PDB file: ./input.pdb
 +Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
 +---Tried to superimpose torsions for: *-CG-CD1-*
 +--- With Sp0 - Sp0
-+--- Sp0 probably means a new atom type is involved
-+--- which needs to be added via addAtomTypes
-+Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
-+---Tried to superimpose torsions for: *-CA-CB-*
-+--- With Sp3 - Sp0
 +--- Sp0 probably means a new atom type is involved
 +--- which needs to be added via addAtomTypes
 +Currently only Sp3-Sp3/Sp3-Sp2/Sp2-Sp2 are supported
@@ -1023,10 +661,10 @@ Box dimensions:  55.781241 61.342711 92.251500
 Checking Unit.
 
 /home/sdoerr/miniconda3/envs/htmd3.9/bin/teLeap: Warning!
-The unperturbed charge of the unit (6.432800) is not integral.
+The unperturbed charge of the unit (6.522800) is not integral.
 
 /home/sdoerr/miniconda3/envs/htmd3.9/bin/teLeap: Warning!
-The unperturbed charge of the unit (6.432800) is not zero.
+The unperturbed charge of the unit (6.522800) is not zero.
 
 /home/sdoerr/miniconda3/envs/htmd3.9/bin/teLeap: Note.
 Ignoring the error and warning from Unit Checking.
@@ -1041,15 +679,15 @@ old PREP-specified impropers:
  <HRG 9>:  -M   CA   N    H   
  <HRG 9>:  NE   NH1  CZ   NH2 
  <HRG 9>:  CA   +M   C    O   
- <ALC 10>:  -M   CA   N    H   
- <ALC 10>:  CA   +M   C    O   
+ <ALC 10>:  CA   H    N    -M  
+ <ALC 10>:  CA   O    C    +M  
  <OIC 15>:  CA   +M   C    O   
- <NLE 16>:  -M   CA   N    H   
- <NLE 16>:  CA   +M   C    O   
- <A00 18>:  -M   CA   N    H   
- <A00 18>:  CB   CD2  CG   CD1 
- <A00 18>:  CE1  H3   CD1  CG  
- <A00 18>:  CZ   H5   CE1  CD1 
+ <NLE 16>:  CA   H    N    -M  
+ <NLE 16>:  CA   O    C    +M  
+ <200 18>:  -M   CA   N    H   
+ <200 18>:  CB   CD2  CG   CD1 
+ <200 18>:  CE1  H3   CD1  CG  
+ <200 18>:  CZ   H5   CE1  CD1 
  total 1254 improper torsions applied
  12 improper torsions in old prep form
 Building H-Bond parameters.
