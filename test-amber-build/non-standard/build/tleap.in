@@ -13,7 +13,7 @@ loadamberparams param2_OIC.frcmod
 loadamberparams param3_ALC.frcmod
 loadamberparams param4_NLE.frcmod
 
-# Loading prepi topologies
+# Loading topologies
 loadamberprep topo0_200.prepi
 loadamberprep topo1_HRG.prepi
 loadamberprep topo2_OIC.prepi

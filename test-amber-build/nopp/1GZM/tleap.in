@@ -8,7 +8,7 @@ source ff5_leaprc.water.tip3p
 
 # Loading parameter files
 
-# Loading prepi topologies
+# Loading topologies
 
 # Loading the system
 mol = loadpdb input.pdb

@@ -9,7 +9,7 @@ source ff5_leaprc.water.tip3p
 # Loading parameter files
 loadamberparams param0_0AF.frcmod
 
-# Loading prepi topologies
+# Loading topologies
 loadamberprep topo0_0AF.prepi
 
 # Loading the system

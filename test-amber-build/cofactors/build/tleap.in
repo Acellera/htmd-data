@@ -18,7 +18,7 @@ loadamberparams param7_NAD.frcmod
 loadamberparams param8_NAI.frcmod
 loadamberparams param9_NAP.frcmod
 
-# Loading prepi topologies
+# Loading topologies
 loadamberprep topo0_ADP.prepi
 loadamberprep topo1_AMP.prepi
 loadamberprep topo2_ATP.prepi
