@@ -10,13 +10,10 @@ source ff5_leaprc.water.tip3p
 loadamberparams param0_BEN.frcmod
 
 # Loading topologies
+loadamberprep topo0_BEN.prepi
 
 # Loading the system
 mol = loadpdb input.pdb
-
-# Loading the ligands
-segmentL = loadmol2 segmentL.mol2
-mol = combine {mol segmentL}
 
 # Adding disulfide bonds
 bond mol.8.SG mol.138.SG
