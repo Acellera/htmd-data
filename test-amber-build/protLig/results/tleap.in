@@ -10,7 +10,7 @@ source ff5_leaprc.water.tip3p
 loadamberparams param0_BEN.frcmod
 
 # Loading topologies
-loadamberprep topo0_BEN.prepi
+BEN = loadmol2 topo0_BEN.mol2
 
 # Loading the system
 mol = loadpdb input.pdb
