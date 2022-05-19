@@ -1,4 +1,4 @@
-log started: Tue Nov 16 10:42:27 2021
+log started: Thu May 19 13:15:27 2022
 
 Log file: ./leap.log
 >> #
@@ -220,18 +220,27 @@ Loading: NVAL
 >> HIS = HIE
 >> CHIS = CHIE
 > 
-> source ff1_leaprc.lipid17
------ Source: ./ff1_leaprc.lipid17
------ Source of ./ff1_leaprc.lipid17 done
+> source ff1_leaprc.lipid21
+----- Source: ./ff1_leaprc.lipid21
+----- Source of ./ff1_leaprc.lipid21 done
 >> #
 >> # Set log file
 >> #
 >> logFile leap.log
-log started: Tue Nov 16 10:42:27 2021
+log started: Thu May 19 13:15:27 2022
 
 Log file: ./leap.log
 >> #
->> # leaprc for loading the Lipid17 v1.1 force field
+>> # leaprc for loading the Lipid21 v1.0 force field
+>> #       of Dickson, Gould and Walker.
+>> #       
+>> #       Note this file is designed to be used in addition
+>> #       to one of the standard protein force field leaprc files
+>> #       even if you are running a pure lipid.
+>> #
+>> #       For example, you would enter in leap:
+>> #         source leaprc.ff19SB
+>> #         source leaprc.lipid21
 >> #       
 >> # Load atom type hybridizations
 >> #
@@ -240,16 +249,12 @@ Log file: ./leap.log
 >>     { "cB"  "C" "sp2" }
 >>     { "cC"  "C" "sp2" }
 >>     { "cD"  "C" "sp3" }
->>     { "cP"  "C" "sp3" }
->>     { "cR"  "C" "sp3" }
 >>     { "hA"  "H" "sp3" }
 >>     { "hB"  "H" "sp3" }
 >>     { "hE"  "H" "sp3" }
 >>     { "hL"  "H" "sp3" }
 >>     { "hN"  "H" "sp3" }
 >>     { "hO"  "H" "sp3" }
->>     { "hR"  "H" "sp3" }
->>     { "hS"  "H" "sp3" }
 >>     { "hX"  "H" "sp3" }
 >>     { "nA"  "N" "sp3" }
 >>     { "nN"  "N" "sp2" }
@@ -257,23 +262,22 @@ Log file: ./leap.log
 >>     { "oH"  "O" "sp3" }
 >>     { "oO"  "O" "sp2" }
 >>     { "oP"  "O" "sp2" }
->>     { "oR"  "O" "sp3" }
 >>     { "oS"  "O" "sp3" }
 >>     { "oT"  "O" "sp3" }
 >>     { "pA"  "P" "sp3" }
 >> }
 >> #
->> # Load the Lipid17 parameter set.
+>> # Load the Lipid21 parameter set.
 >> #
->> lipid17 = loadamberparams lipid17.dat 
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/lipid17.dat
+>> lipid21 = loadamberparams lipid21.dat 
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/lipid21.dat
 Reading title:
-AMBER Lipid17 v1.1 Force Field, A. Skjevik, C. Dickson, B. Madej, I.R. Gould, R.C. Walker*
+AMBER Lipid21 v1.0 C. J. Dickson, R.C. Walker, I.R. Gould.
 >> #
->> # Load the Lipid17 master lib file.
+>> # Load the Lipid21 master lib file.
 >> #
->> loadoff lipid17.lib
-Loading library: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/lib/lipid17.lib
+>> loadoff lipid21.lib
+Loading library: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/lib/lipid21.lib
 Loading: AR
 Loading: CHL
 Loading: DHA
@@ -284,8 +288,11 @@ Loading: PA
 Loading: PC
 Loading: PE
 Loading: PGR
+Loading: PGS
 Loading: PH-
 Loading: PS
+Loading: SA
+Loading: SPM
 Loading: ST
 >> 
 > 
@@ -293,7 +300,7 @@ Loading: ST
 ----- Source: ./ff2_leaprc.gaff2
 ----- Source of ./ff2_leaprc.gaff2 done
 >> logFile leap.log
-log started: Tue Nov 16 10:42:27 2021
+log started: Thu May 19 13:15:27 2022
 
 Log file: ./leap.log
 >> #
@@ -415,7 +422,7 @@ AMBER General Force Field for organic molecules (Version 2.11, May 2016)
 ----- Source: ./ff3_leaprc.RNA.Shaw
 ----- Source of ./ff3_leaprc.RNA.Shaw done
 >> logFile leap.log
-log started: Tue Nov 16 10:42:27 2021
+log started: Thu May 19 13:15:27 2022
 
 Log file: ./leap.log
 >> # ----- NOTE: this is designed for PDB format 3!
@@ -680,6 +687,7 @@ Loading: FB4
 Loading: FB4BOX
 Loading: MEOHBOX
 Loading: NMABOX
+Loading: O3P
 Loading: OP3
 Loading: OPC
 Loading: OPC3BOX
@@ -781,7 +789,7 @@ Ion parameters from CHARMM22. Beglov D & Roux B (1994) J. Chem. Phys. 100, 9050-
 ----- Source: ./ff4_leaprc.DNA.bsc1
 ----- Source of ./ff4_leaprc.DNA.bsc1 done
 >> logFile leap.log
-log started: Tue Nov 16 10:42:37 2021
+log started: Thu May 19 13:15:27 2022
 
 Log file: ./leap.log
 >> # ----- NOTE: this is designed for PDB format 3!
@@ -1155,6 +1163,7 @@ Loading: FB4
 Loading: FB4BOX
 Loading: MEOHBOX
 Loading: NMABOX
+Loading: O3P
 Loading: OP3
 Loading: OPC
 Loading: OPC3BOX
@@ -1204,7 +1213,7 @@ Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12
 > 
 > # Loading parameter files
 > 
-> # Loading prepi topologies
+> # Loading topologies
 > 
 > # Loading the system
 > mol = loadpdb input.pdb

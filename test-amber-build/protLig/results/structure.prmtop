@@ -1,4 +1,4 @@
-%VERSION  VERSION_STAMP = V0001.000  DATE = 01/20/22  15:17:48                  
+%VERSION  VERSION_STAMP = V0001.000  DATE = 05/19/22  13:02:52                  
 %FLAG TITLE                                                                     
 %FORMAT(20a4)                                                                   
 default_name                                                                    
@@ -171,7 +171,7 @@ CA  HA  CB  HB2 HB3 CG  HG2 HG3 CD  OE1 NE2 HE21HE22C   O   N   H   CA  HA  CB
 HB  CG2 HG21HG22HG23OG1 HG1 C   O   N   H   CA  HA  CB  HB  CG2 HG21HG22HG23CG1 
 HG12HG13CD1 HD11HD12HD13C   O   N   H   CA  HA  CB  HB1 HB2 HB3 C   O   N   H   
 CA  HA  CB  HB2 HB3 OG  HG  C   O   N   H   CA  HA  CB  HB2 HB3 CG  OD1 ND2 HD21
-HD22C   O   N   H   CH3 HH31HH32HH33C0  C1  C2  C3  C4  C5  C6  N7  N8  H9  H10 
+HD22C   O   N   H   C   H1  H2  H3  C0  C1  C2  C3  C4  C5  C6  N7  N8  H9  H10 
 H11 H12 H13 H14 H15 H16 H17 
 %FLAG CHARGE                                                                    
 %FORMAT(5E16.8)                                                                 
