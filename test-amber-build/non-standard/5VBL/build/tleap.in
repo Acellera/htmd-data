@@ -8,17 +8,17 @@ source ff5_leaprc.water.tip3p
 
 # Loading parameter files
 loadamberparams param0_200.frcmod
-loadamberparams param1_HRG.frcmod
-loadamberparams param2_OIC.frcmod
-loadamberparams param3_ALC.frcmod
-loadamberparams param4_NLE.frcmod
+loadamberparams param1_ALC.frcmod
+loadamberparams param2_HRG.frcmod
+loadamberparams param3_NLE.frcmod
+loadamberparams param4_OIC.frcmod
 
 # Loading topologies
 loadamberprep topo0_200.prepi
-loadamberprep topo1_HRG.prepi
-loadamberprep topo2_OIC.prepi
-loadamberprep topo3_ALC.prepi
-loadamberprep topo4_NLE.prepi
+loadamberprep topo1_ALC.prepi
+loadamberprep topo2_HRG.prepi
+loadamberprep topo3_NLE.prepi
+loadamberprep topo4_OIC.prepi
 
 # Loading the system
 mol = loadpdb input.pdb
