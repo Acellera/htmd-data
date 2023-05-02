@@ -6,18 +6,6 @@ source ff3_leaprc.RNA.Shaw
 source ff4_leaprc.DNA.bsc1
 source ff5_leaprc.water.tip3p
 
-# Loading parameter files
-loadamberparams param0_ADP.frcmod
-loadamberparams param1_AMP.frcmod
-loadamberparams param2_ATP.frcmod
-loadamberparams param3_FMN.frcmod
-loadamberparams param4_GDP.frcmod
-loadamberparams param5_GTP.frcmod
-loadamberparams param6_HEM.frcmod
-loadamberparams param7_NAD.frcmod
-loadamberparams param8_NAI.frcmod
-loadamberparams param9_NAP.frcmod
-
 # Loading topologies
 loadamberprep topo0_ADP.prepi
 loadamberprep topo1_AMP.prepi
@@ -29,6 +17,18 @@ loadamberprep topo6_HEM.prepi
 loadamberprep topo7_NAD.prepi
 loadamberprep topo8_NAI.prepi
 loadamberprep topo9_NAP.prepi
+
+# Loading parameter files
+loadamberparams param0_ADP.frcmod
+loadamberparams param1_AMP.frcmod
+loadamberparams param2_ATP.frcmod
+loadamberparams param3_FMN.frcmod
+loadamberparams param4_GDP.frcmod
+loadamberparams param5_GTP.frcmod
+loadamberparams param6_HEM.frcmod
+loadamberparams param7_NAD.frcmod
+loadamberparams param8_NAI.frcmod
+loadamberparams param9_NAP.frcmod
 
 # Loading the system
 mol = loadpdb input.pdb

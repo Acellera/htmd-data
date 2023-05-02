@@ -6,11 +6,11 @@ source ff3_leaprc.RNA.Shaw
 source ff4_leaprc.DNA.bsc1
 source ff5_leaprc.water.tip3p
 
-# Loading parameter files
-loadamberparams param0_TYS.frcmod
-
 # Loading topologies
 loadamberprep topo0_TYS.prepi
+
+# Loading parameter files
+loadamberparams param0_TYS.frcmod
 
 # Loading the system
 mol = loadpdb input.pdb

@@ -6,9 +6,9 @@ source ff3_leaprc.RNA.Shaw
 source ff4_leaprc.DNA.bsc1
 source ff5_leaprc.water.tip3p
 
-# Loading parameter files
-
 # Loading topologies
+
+# Loading parameter files
 
 # Loading the system
 mol = loadpdb input.pdb

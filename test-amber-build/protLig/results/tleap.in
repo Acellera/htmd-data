@@ -6,11 +6,11 @@ source ff3_leaprc.RNA.Shaw
 source ff4_leaprc.DNA.bsc1
 source ff5_leaprc.water.tip3p
 
-# Loading parameter files
-loadamberparams param0_BEN.frcmod
-
 # Loading topologies
 BEN = loadmol2 topo0_BEN.mol2
+
+# Loading parameter files
+loadamberparams param0_BEN.frcmod
 
 # Loading the system
 mol = loadpdb input.pdb

@@ -1,4 +1,4 @@
-%VERSION  VERSION_STAMP = V0001.000  DATE = 04/03/23  09:50:40                  
+%VERSION  VERSION_STAMP = V0001.000  DATE = 05/02/23  16:28:36                  
 %FLAG TITLE                                                                     
 %FORMAT(20a4)                                                                   
 default_name                                                                    
@@ -28327,7 +28327,7 @@ H1  N2  H   CA  N2  H   H   N2  H   H   C   O   N   H   XC  H1  C8  HC  HC  C8
 HC  HC  C8  H1  H1  N2  H   CA  N2  H   H   N2  H   H   C   O   N   H   XC  H1  
 2C  HC  HC  2C  HC  HC  C   O   N   H   H   C   O   N   H   XC  H1  C8  HC  HC  
 C8  HC  HC  C8  H1  H1  N2  H   CA  N2  H   H   N2  H   H   C   O   N   CT  H1  
-H1  CT  HC  HC  CT  HC  HC  XC  H1  C   O   N   H   CT  H1  za  ze  zf  zg  zl  
+H1  CT  HC  HC  CT  HC  HC  XC  H1  C   O   N   H   CT  H1  za  zf  zg  ze  zl  
 zh  zm  zi  zi  zm  zi  zi  hn  h1  h1  hc  hc  hc  hc  hc  hc  C   O   N   H   
 CT  CT  CT  CT  CT  CT  CT  CT  HC  HC  HC  HC  HC  HC  HC  HC  HC  HC  HC  HC  
 HC  H1  C   O   N   H   XC  H1  2C  HC  HC  2C  HC  HC  CO  O2  O2  C   O   N   

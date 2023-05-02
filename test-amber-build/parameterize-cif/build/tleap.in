@@ -6,9 +6,6 @@ source ff3_leaprc.RNA.Shaw
 source ff4_leaprc.DNA.bsc1
 source ff5_leaprc.water.tip3p
 
-# Loading parameter files
-loadamberparams param0_MOL.frcmod
-
 # Loading topologies
 addAtomTypes {
 	{ "za"  "C" "sp3" }
@@ -28,6 +25,9 @@ addAtomTypes {
 	{ "zo"  "H" "sp3" }
 }
 MOL = loadmol2 topo0_MOL-orig.mol2
+
+# Loading parameter files
+loadamberparams param0_MOL.frcmod
 
 # Loading the system
 mol = loadpdb input.pdb
