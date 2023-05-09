@@ -1,2 +1,2 @@
 #!/bin/bash
-acemd3 >log.txt 2>&1
+acemd >log.txt 2>&1
