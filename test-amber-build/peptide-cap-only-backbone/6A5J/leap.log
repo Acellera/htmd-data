@@ -1,8 +1,8 @@
-log started: Thu May 19 13:15:27 2022
+log started: Fri May 12 16:38:15 2023
 
 Log file: ./leap.log
 >> #
->> # ----- leaprc for loading the ff19SB force field
+>> # ----- leaprc for loading the ff14SB force field
 >> # ----- NOTE: this is designed for PDB format 3!
 >> #
 >> #	load atom type hybridizations
@@ -29,7 +29,6 @@ Log file: ./leap.log
 >> 	{ "OW"  "O" "sp3" }
 >> 	{ "CT"  "C" "sp3" }
 >> 	{ "CX"  "C" "sp3" }
->> 	{ "XC"  "C" "sp3" }
 >> 	{ "C8"  "C" "sp3" }
 >> 	{ "2C"  "C" "sp3" }
 >> 	{ "3C"  "C" "sp3" }
@@ -82,23 +81,20 @@ Log file: ./leap.log
 >> #
 >> #	Load the main parameter set.
 >> #
->> set default cmap on
->> parm19 = loadamberparams parm19.dat
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/parm19.dat
+>> parm10 = loadamberparams parm10.dat
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/parm10.dat
 Reading title:
-PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
-(UNKNOWN ATOM TYPE: Zn)
-(UNKNOWN ATOM TYPE: EP)
->> frcmod19SB = loadamberparams frcmod.ff19SB
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/frcmod.ff19SB
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+>> frcmod14SB = loadamberparams frcmod.ff14SB
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/frcmod.ff14SB
 Reading force field modification type file (frcmod)
 Reading title:
-ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+ff14SB protein backbone and sidechain parameters
 >> #
 >> #	Load main chain and terminating amino acid libraries
 >> #
->> loadOff amino19.lib
-Loading library: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/lib/amino19.lib
+>> loadOff amino12.lib
+Loading library: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/lib/amino12.lib
 Loading: ALA
 Loading: ARG
 Loading: ASH
@@ -128,7 +124,7 @@ Loading: TRP
 Loading: TYR
 Loading: VAL
 >> loadOff aminoct12.lib
-Loading library: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/lib/aminoct12.lib
+Loading library: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/lib/aminoct12.lib
 Loading: CALA
 Loading: CARG
 Loading: CASN
@@ -156,7 +152,7 @@ Loading: CVAL
 Loading: NHE
 Loading: NME
 >> loadOff aminont12.lib
-Loading library: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/lib/aminont12.lib
+Loading library: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/lib/aminont12.lib
 Loading: ACE
 Loading: NALA
 Loading: NARG
@@ -186,7 +182,7 @@ Loading: NVAL
 >> #	Define the PDB name map for the amino acids
 >> #
 >> addPdbResMap {
->>   { 0 "HYP" "NHYP" } { 1 "HYP" "CHYP" }
+>>   { 0 "HYP" "HYP" } { 1 "HYP" "CHYP" }
 >>   { 0 "ALA" "NALA" } { 1 "ALA" "CALA" }
 >>   { 0 "ARG" "NARG" } { 1 "ARG" "CARG" }
 >>   { 0 "ASN" "NASN" } { 1 "ASN" "CASN" }
@@ -227,7 +223,7 @@ Loading: NVAL
 >> # Set log file
 >> #
 >> logFile leap.log
-log started: Thu May 19 13:15:27 2022
+log started: Fri May 12 16:38:15 2023
 
 Log file: ./leap.log
 >> #
@@ -270,14 +266,14 @@ Log file: ./leap.log
 >> # Load the Lipid21 parameter set.
 >> #
 >> lipid21 = loadamberparams lipid21.dat 
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/lipid21.dat
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/lipid21.dat
 Reading title:
 AMBER Lipid21 v1.0 C. J. Dickson, R.C. Walker, I.R. Gould.
 >> #
 >> # Load the Lipid21 master lib file.
 >> #
 >> loadoff lipid21.lib
-Loading library: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/lib/lipid21.lib
+Loading library: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/lib/lipid21.lib
 Loading: AR
 Loading: CHL
 Loading: DHA
@@ -300,7 +296,7 @@ Loading: ST
 ----- Source: ./ff2_leaprc.gaff2
 ----- Source of ./ff2_leaprc.gaff2 done
 >> logFile leap.log
-log started: Thu May 19 13:15:27 2022
+log started: Fri May 12 16:38:15 2023
 
 Log file: ./leap.log
 >> #
@@ -414,7 +410,7 @@ Log file: ./leap.log
 >> #	Load the general force field parameter set.
 >> #
 >> gaff = loadamberparams gaff2.dat
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/gaff2.dat
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/gaff2.dat
 Reading title:
 AMBER General Force Field for organic molecules (Version 2.11, May 2016)
 > 
@@ -422,7 +418,7 @@ AMBER General Force Field for organic molecules (Version 2.11, May 2016)
 ----- Source: ./ff3_leaprc.RNA.Shaw
 ----- Source of ./ff3_leaprc.RNA.Shaw done
 >> logFile leap.log
-log started: Thu May 19 13:15:27 2022
+log started: Fri May 12 16:38:15 2023
 
 Log file: ./leap.log
 >> # ----- NOTE: this is designed for PDB format 3!
@@ -507,11 +503,11 @@ Log file: ./leap.log
 >> #	Load the main parameter set.
 >> #
 >> parm10 = loadamberparams parm10.dat
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/parm10.dat
-Reading title:
-PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+
+/home/sdoerr/miniconda3/envs/htmd3.10/bin/teLeap: Note.
+Skipping parm10.dat: already loaded
 >> shaw = loadamberparams frcmod.shaw
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/frcmod.shaw
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/frcmod.shaw
 Reading force field modification type file (frcmod)
 Reading title:
 # force field modification accoding to Tan et al. Proc. Natl. Acad. Sci. 2018 and N*->NR (purines), NC->ND (Ade(N3,N1)), CB->CE (Ade(C4,C5)), CA->CF (Ade(C6)); and according to Steinbrecher et al. J. Chem. Theory Comput. 2012 and OS->OR (O3' and O5') and O2->OQ (O1P and O2P) 
@@ -520,7 +516,7 @@ Reading title:
 >> #
 >> 
 >> loadOff RNA_Shaw.lib
-Loading library: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/lib/RNA_Shaw.lib
+Loading library: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/lib/RNA_Shaw.lib
 Loading: A
 Loading: A3
 Loading: A5
@@ -539,8 +535,8 @@ Loading: U3
 Loading: U5
 Loading: UN
 >> source leaprc.water.tip4pd
------ Source: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/cmd/leaprc.water.tip4pd
------ Source of /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/cmd/leaprc.water.tip4pd done
+----- Source: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/cmd/leaprc.water.tip4pd
+----- Source of /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/cmd/leaprc.water.tip4pd done
 >>> #
 >>> #       Load water and ions for TIP4P-ew + Joung-Chetham monovalent ions
 >>> #       + Li/Merz highly charged ions (+2 to +4, 12-6 normal usage set)
@@ -609,7 +605,7 @@ Loading: UN
 >>>     { "Th4+" "Th"  "sp3" }
 >>> }
 >>> loadOff atomic_ions.lib
-Loading library: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/lib/atomic_ions.lib
+Loading library: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/lib/atomic_ions.lib
 Loading: AG
 Loading: AL
 Loading: Ag
@@ -678,7 +674,7 @@ Loading: YB2
 Loading: ZN
 Loading: Zr
 >>> loadOff solvents.lib
-Loading library: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/lib/solvents.lib
+Loading library: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/lib/solvents.lib
 Loading: CHCL3BOX
 Loading: DC4
 Loading: FB3
@@ -711,19 +707,19 @@ Loading: TP4
 Loading: TP5
 Loading: TPF
 >>> loadOff tip4pd.off
-Loading library: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/lib/tip4pd.off
+Loading library: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/lib/tip4pd.off
 Loading: T4D
 Loading: TIP4PDBOX
 >>> HOH = T4D
 >>> WAT = T4D
 >>> loadAmberParams frcmod.tip4pd
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/frcmod.tip4pd
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/frcmod.tip4pd
 Reading force field modification type file (frcmod)
 Reading title:
 This is the additional/replacement parameter set for TIP4P-D, modified from TIP4PEW.
 (UNKNOWN ATOM TYPE: EP)
 >>> loadAmberParams frcmod.ions_charmm22
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/frcmod.ions_charmm22
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/frcmod.ions_charmm22
 Reading force field modification type file (frcmod)
 Reading title:
 Ion parameters from CHARMM22. Beglov D & Roux B (1994) J. Chem. Phys. 100, 9050-9063.
@@ -789,7 +785,7 @@ Ion parameters from CHARMM22. Beglov D & Roux B (1994) J. Chem. Phys. 100, 9050-
 ----- Source: ./ff4_leaprc.DNA.bsc1
 ----- Source of ./ff4_leaprc.DNA.bsc1 done
 >> logFile leap.log
-log started: Thu May 19 13:15:27 2022
+log started: Fri May 12 16:38:15 2023
 
 Log file: ./leap.log
 >> # ----- NOTE: this is designed for PDB format 3!
@@ -887,7 +883,7 @@ Log file: ./leap.log
 >> 
 >> parm10 = loadamberparams parm10.dat
 
-/home/sdoerr/miniconda3/envs/htmd3.9/bin/teLeap: Note.
+/home/sdoerr/miniconda3/envs/htmd3.10/bin/teLeap: Note.
 Skipping parm10.dat: already loaded
 >> 
 >> #
@@ -982,7 +978,7 @@ Substituting map O2P -> OP2  for  O2P -> OP2
 >>  }
 >> 
 >> loadoff parmBSC1.lib
-Loading library: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/lib/parmBSC1.lib
+Loading library: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/lib/parmBSC1.lib
 Loading: DA
 Loading: DA3
 Loading: DA5
@@ -1000,7 +996,7 @@ Loading: DT3
 Loading: DT5
 Loading: DTN
 >> loadamberparams frcmod.parmbsc1
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/frcmod.parmbsc1
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/frcmod.parmbsc1
 Reading force field modification type file (frcmod)
 Reading title:
 Parmbsc1 force-field for DNA
@@ -1085,7 +1081,7 @@ Parmbsc1 force-field for DNA
 >>     { "Th4+" "Th"  "sp3" }
 >> }
 >> loadOff atomic_ions.lib
-Loading library: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/lib/atomic_ions.lib
+Loading library: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/lib/atomic_ions.lib
 Loading: AG
 Loading: AL
 Loading: Ag
@@ -1154,7 +1150,7 @@ Loading: YB2
 Loading: ZN
 Loading: Zr
 >> loadOff solvents.lib
-Loading library: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/lib/solvents.lib
+Loading library: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/lib/solvents.lib
 Loading: CHCL3BOX
 Loading: DC4
 Loading: FB3
@@ -1189,31 +1185,31 @@ Loading: TPF
 >> HOH = TP3
 >> WAT = TP3
 >> loadAmberParams frcmod.tip3p
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/frcmod.tip3p
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/frcmod.tip3p
 Reading force field modification type file (frcmod)
 Reading title:
 This is the additional/replacement parameter set for TIP3P water
 >> loadAmberParams frcmod.ions1lm_126_tip3p
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/frcmod.ions1lm_126_tip3p
 Reading force field modification type file (frcmod)
 Reading title:
 Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
 >> loadAmberParams frcmod.ionsjc_tip3p
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/frcmod.ionsjc_tip3p
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/frcmod.ionsjc_tip3p
 Reading force field modification type file (frcmod)
 Reading title:
 Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
 >> loadAmberParams frcmod.ions234lm_126_tip3p
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.9/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/frcmod.ions234lm_126_tip3p
 Reading force field modification type file (frcmod)
 Reading title:
 Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
 >> 
 > 
 > 
-> # Loading parameter files
-> 
 > # Loading topologies
+> 
+> # Loading parameter files
 > 
 > # Loading the system
 > mol = loadpdb input.pdb
@@ -1283,10 +1279,10 @@ Box dimensions:  23.466976 19.857600 18.997757
 > saveamberparm mol structure.prmtop structure.crd
 Checking Unit.
 
-/home/sdoerr/miniconda3/envs/htmd3.9/bin/teLeap: Warning!
+/home/sdoerr/miniconda3/envs/htmd3.10/bin/teLeap: Warning!
 The unperturbed charge of the unit (6.000000) is not zero.
 
-/home/sdoerr/miniconda3/envs/htmd3.9/bin/teLeap: Note.
+/home/sdoerr/miniconda3/envs/htmd3.10/bin/teLeap: Note.
 Ignoring the warning from Unit Checking.
 
 Building topology.
@@ -1311,4 +1307,4 @@ Marking per-residue atom chain types.
  quit
 	Quit
 
-Exiting LEaP: Errors = 0; Warnings = 1; Notes = 2.
+Exiting LEaP: Errors = 0; Warnings = 1; Notes = 3.

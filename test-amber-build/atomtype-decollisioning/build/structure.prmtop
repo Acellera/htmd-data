@@ -1,4 +1,4 @@
-%VERSION  VERSION_STAMP = V0001.000  DATE = 05/02/23  16:13:21                  
+%VERSION  VERSION_STAMP = V0001.000  DATE = 05/12/23  15:29:15                  
 %FLAG TITLE                                                                     
 %FORMAT(20a4)                                                                   
 default_name                                                                    
@@ -678,12 +678,3 @@ modified Bondi radii (mbondi)
 %FLAG IPOL                                                                      
 %FORMAT(1I8)                                                                    
        0
-%FLAG CMAP_COUNT                                                                
-%FORMAT(2I8)                                                                    
-       0       0                                                                
-%FLAG CMAP_RESOLUTION                                                           
-%FORMAT(20I4)                                                                   
-
-%FLAG CMAP_INDEX                                                                
-%FORMAT(6I8)                                                                    
-

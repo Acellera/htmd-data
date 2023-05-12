@@ -1,8 +1,8 @@
-log started: Tue May  2 16:28:35 2023
+log started: Fri May 12 15:31:42 2023
 
 Log file: ./leap.log
 >> #
->> # ----- leaprc for loading the ff19SB force field
+>> # ----- leaprc for loading the ff14SB force field
 >> # ----- NOTE: this is designed for PDB format 3!
 >> #
 >> #	load atom type hybridizations
@@ -29,7 +29,6 @@ Log file: ./leap.log
 >> 	{ "OW"  "O" "sp3" }
 >> 	{ "CT"  "C" "sp3" }
 >> 	{ "CX"  "C" "sp3" }
->> 	{ "XC"  "C" "sp3" }
 >> 	{ "C8"  "C" "sp3" }
 >> 	{ "2C"  "C" "sp3" }
 >> 	{ "3C"  "C" "sp3" }
@@ -82,23 +81,20 @@ Log file: ./leap.log
 >> #
 >> #	Load the main parameter set.
 >> #
->> set default cmap on
->> parm19 = loadamberparams parm19.dat
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/parm19.dat
+>> parm10 = loadamberparams parm10.dat
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/parm10.dat
 Reading title:
-PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
-(UNKNOWN ATOM TYPE: Zn)
-(UNKNOWN ATOM TYPE: EP)
->> frcmod19SB = loadamberparams frcmod.ff19SB
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/frcmod.ff19SB
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+>> frcmod14SB = loadamberparams frcmod.ff14SB
+Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/frcmod.ff14SB
 Reading force field modification type file (frcmod)
 Reading title:
-ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+ff14SB protein backbone and sidechain parameters
 >> #
 >> #	Load main chain and terminating amino acid libraries
 >> #
->> loadOff amino19.lib
-Loading library: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/lib/amino19.lib
+>> loadOff amino12.lib
+Loading library: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/lib/amino12.lib
 Loading: ALA
 Loading: ARG
 Loading: ASH
@@ -186,7 +182,7 @@ Loading: NVAL
 >> #	Define the PDB name map for the amino acids
 >> #
 >> addPdbResMap {
->>   { 0 "HYP" "NHYP" } { 1 "HYP" "CHYP" }
+>>   { 0 "HYP" "HYP" } { 1 "HYP" "CHYP" }
 >>   { 0 "ALA" "NALA" } { 1 "ALA" "CALA" }
 >>   { 0 "ARG" "NARG" } { 1 "ARG" "CARG" }
 >>   { 0 "ASN" "NASN" } { 1 "ASN" "CASN" }
@@ -227,7 +223,7 @@ Loading: NVAL
 >> # Set log file
 >> #
 >> logFile leap.log
-log started: Tue May  2 16:28:35 2023
+log started: Fri May 12 15:31:42 2023
 
 Log file: ./leap.log
 >> #
@@ -300,7 +296,7 @@ Loading: ST
 ----- Source: ./ff2_leaprc.gaff2
 ----- Source of ./ff2_leaprc.gaff2 done
 >> logFile leap.log
-log started: Tue May  2 16:28:35 2023
+log started: Fri May 12 15:31:42 2023
 
 Log file: ./leap.log
 >> #
@@ -422,7 +418,7 @@ AMBER General Force Field for organic molecules (Version 2.11, May 2016)
 ----- Source: ./ff3_leaprc.RNA.Shaw
 ----- Source of ./ff3_leaprc.RNA.Shaw done
 >> logFile leap.log
-log started: Tue May  2 16:28:35 2023
+log started: Fri May 12 15:31:42 2023
 
 Log file: ./leap.log
 >> # ----- NOTE: this is designed for PDB format 3!
@@ -507,9 +503,9 @@ Log file: ./leap.log
 >> #	Load the main parameter set.
 >> #
 >> parm10 = loadamberparams parm10.dat
-Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/parm10.dat
-Reading title:
-PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+
+/home/sdoerr/miniconda3/envs/htmd3.10/bin/teLeap: Note.
+Skipping parm10.dat: already loaded
 >> shaw = loadamberparams frcmod.shaw
 Loading parameters: /home/sdoerr/miniconda3/envs/htmd3.10/dat/leap/parm/frcmod.shaw
 Reading force field modification type file (frcmod)
@@ -789,7 +785,7 @@ Ion parameters from CHARMM22. Beglov D & Roux B (1994) J. Chem. Phys. 100, 9050-
 ----- Source: ./ff4_leaprc.DNA.bsc1
 ----- Source of ./ff4_leaprc.DNA.bsc1 done
 >> logFile leap.log
-log started: Tue May  2 16:28:35 2023
+log started: Fri May 12 15:31:42 2023
 
 Log file: ./leap.log
 >> # ----- NOTE: this is designed for PDB format 3!
@@ -1355,4 +1351,4 @@ Marking per-residue atom chain types.
  quit
 	Quit
 
-Exiting LEaP: Errors = 0; Warnings = 2; Notes = 3.
+Exiting LEaP: Errors = 0; Warnings = 2; Notes = 4.
